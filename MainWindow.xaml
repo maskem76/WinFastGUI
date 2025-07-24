@@ -1,0 +1,134 @@
+﻿<Window x:Class="WinFastGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:WinFastGUI.Controls"
+        Title="WinFast Optimizasyon Aracı v13.1"
+        Height="720" Width="1200"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanResize"
+        Background="#232323">
+
+    <Window.Resources>
+        <!-- SADECE SOL MENÜ İÇİN ÖZEL BUTTON STILI -->
+        <Style x:Key="LeftMenuButtonStyle" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="7">
+                            <DockPanel LastChildFill="True">
+                                <Image Source="{Binding Tag, RelativeSource={RelativeSource TemplatedParent}}" Width="22" Height="22" Margin="18,0,8,0" VerticalAlignment="Center" DockPanel.Dock="Left"/>
+                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                            </DockPanel>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="230"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- SOL MENÜ -->
+        <StackPanel Grid.Column="0" Background="#232c36" VerticalAlignment="Stretch">
+
+            <Button x:Name="HomeButton" Click="HomeButton_Click"
+                    Height="52" Margin="14,22,14,0"
+                    Background="#43a047"
+                    Content="Ana Sayfa"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/home.png"/>
+            <Button x:Name="SystemCleanButton" Click="SystemCleanButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#0288d1"
+                    Content="Sistem Temizliği"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/clean_icon.png"/>
+            <Button x:Name="AppManagerButton" Click="AppManagerButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#8e24aa"
+                    Content="Uygulama Yönetimi"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/icon.png"/>
+            <Button x:Name="BackupButton" Click="BackupButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#ff9800"
+                    Content="Yedekleme"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/backup_icon.png"/>
+            <Button x:Name="ImageBackupButton" Click="ImageBackupButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#7b1fa2"
+                    Content="İmaj &amp; ISO Oluşturucu"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/iso_icon.png"/>
+            <Button x:Name="OptimizationManagerButton" Click="OptimizationManagerButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#6ad36b"
+                    Content="Optimizasyon Yöneticisi"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/optimize_icon.png"/>
+            <Button x:Name="AffinityManagerButton" Click="AffinityManagerButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#607d8b"
+                    Content="Affinity Yöneticisi"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/affinity_icon.png"/>
+            <Button x:Name="UpdateManagerButton" Click="UpdateManagerButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#78909c"
+                    Content="Windows Güncellemesi"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/update_icon.png"/>
+            <Button x:Name="BloatwareButton" Click="BloatwareButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#f06292"
+                    Content="Bloatware"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/bloatware.png"/>
+            <Button x:Name="ServiceManagementButton" Click="ServiceManagementButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#0288d1"
+                    Content="Servis Yönetimi"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/servis.png"/>
+            <Button x:Name="IrqToolButton" Click="IrqToolButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#5669b3"
+                    Content="Interrupt Affinity Policy Tool"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/irq.png"/>
+		
+
+        </StackPanel>
+
+        <!-- ÜSTTE BAŞLIK -->
+        <Border Grid.Column="1" Height="54" VerticalAlignment="Top" Background="#262830" CornerRadius="0,0,12,12">
+            <TextBlock x:Name="HeaderTextBlock"
+                       Text="Ana Sayfa"
+                       Foreground="White" FontSize="20" FontWeight="SemiBold"
+                       VerticalAlignment="Center" HorizontalAlignment="Center" />
+        </Border>
+
+        <!-- ANA PANEL -->
+        <ContentControl x:Name="MainContentArea" Grid.Column="1" Margin="0,60,0,150"/>
+
+        <!-- ALT LOG PANELİ -->
+        <TextBox Grid.Column="1" x:Name="LogTextBox" Height="130" VerticalAlignment="Bottom"
+                 Margin="15,0,15,15" FontFamily="Consolas"
+                 Background="#19191c" Foreground="#5dfc72" FontSize="14"
+                 IsReadOnly="True" TextWrapping="NoWrap" VerticalScrollBarVisibility="Auto"
+                 Text="[17:13:01] Sistem optimize ediliyor..."/>
+    </Grid>
+</Window>

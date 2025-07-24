@@ -1,0 +1,24 @@
+<Window x:Class="WinFastGUI.Controls.CoreAssignmentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Donanım/Çekirdek Atama"
+        Height="370" Width="430"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        Background="#252830"
+        FontFamily="Segoe UI">
+    <Grid Margin="12">
+        <StackPanel>
+            <TextBlock Text="Donanım Başına Çekirdek Atama" FontSize="18" FontWeight="Bold" Foreground="#32c6ff" Margin="0,0,0,12"/>
+            <TextBlock Text="(Seçili donanımlara belirli çekirdekleri atayabilirsiniz.)" Foreground="#99c" FontSize="12" Margin="0,0,0,12"/>
+            
+            <ComboBox x:Name="DeviceComboBox" Height="32" Margin="0,0,0,8" />
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
+                <TextBlock Text="Atanacak Çekirdekler (örn: 0,1,2): " VerticalAlignment="Center" Foreground="White"/>
+                <TextBox x:Name="CoresTextBox" Width="100" Height="26" Margin="8,0,0,0"/>
+            </StackPanel>
+            <Button Content="Çekirdek Ata" Width="120" Height="32" Click="AssignCoresButton_Click" Margin="0,0,0,8"/>
+            <TextBox x:Name="ResultTextBox" Height="100" Margin="0,10,0,0" IsReadOnly="True" VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"/>
+        </StackPanel>
+    </Grid>
+</Window>

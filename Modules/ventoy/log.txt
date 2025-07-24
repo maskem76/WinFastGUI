@@ -1,0 +1,68 @@
+[2025/07/13 13:13:05.089] 
+##################################################################################
+############################## Ventoy2DiskX86  #############################
+##################################################################################
+[2025/07/13 13:13:05.089] Current Directory <C:\Users\pc\Downloads\ventoy\ventoy>
+[2025/07/13 13:13:05.089] Exe file path <C:\Users\pc\Downloads\ventoy\ventoy\Ventoy2Disk.exe>
+[2025/07/13 13:13:05.089] Current directory check OK.
+[2025/07/13 13:13:05.089] Current directory:<C:\Users\pc\Downloads\ventoy\ventoy>
+[2025/07/13 13:13:05.089] ######### Current Ventoy Version: Ventoy2DiskX86 1.1.05 ########
+[2025/07/13 13:13:05.092] id=4772/744
+[2025/07/13 13:13:05.092] PPath:<C:\Windows\explorer.exe>
+[2025/07/13 13:13:05.092] PSize:<6087496 5944KB>
+[2025/07/13 13:13:05.093] Lunch main process 0
+[2025/07/13 13:13:05.093] Control Flag: 0 1 1
+[2025/07/13 13:13:05.093] Windows Version: <<Windows 10 Pro, 64-bit (Build 19045.6093)>>
+[2025/07/13 13:13:05.093] 
+===================== Enum All PhyDrives =====================
+[2025/07/13 13:13:05.094] RegOpenKeyExA <SYSTEM\CurrentControlSet\Services\disk\Enum> Ret:0
+[2025/07/13 13:13:05.094] RegQueryValueExA <Count> ret:0  Size:4 Value:3
+[2025/07/13 13:13:05.094] GetPhysicalDriveCount: 3
+[2025/07/13 13:13:05.094] Logical Drives: 0x3c
+[2025/07/13 13:13:05.094] LogicalDrive:\\.\C: PhyDrive:1 Num:1 Offset:122683392 ExtentLength:249378189312
+[2025/07/13 13:13:05.094] C --> 1
+[2025/07/13 13:13:05.094] LogicalDrive:\\.\D: PhyDrive:0 Num:1 Offset:16777216 ExtentLength:2000381018112
+[2025/07/13 13:13:05.094] D --> 0
+[2025/07/13 13:13:05.095] LogicalDrive:\\.\E: PhyDrive:2 Num:1 Offset:1048576 ExtentLength:7758372864
+[2025/07/13 13:13:05.095] E --> 2
+[2025/07/13 13:13:05.095] DeviceIoControl IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS failed \\.\F:, error:1
+[2025/07/13 13:13:05.095] F --> -1
+[2025/07/13 13:13:05.096] Create file Handle:00000124 \\.\PhysicalDrive0 status:0
+[2025/07/13 13:13:05.096] PHYSICALDRIVE0 size 2000398934016 bytes
+[2025/07/13 13:13:05.096] Create file Handle:00000124 \\.\PhysicalDrive1 status:0
+[2025/07/13 13:13:05.096] PHYSICALDRIVE1 size 250059350016 bytes
+[2025/07/13 13:13:05.097] Create file Handle:00000124 \\.\PhysicalDrive2 status:0
+[2025/07/13 13:13:05.097] PHYSICALDRIVE2 size 7759462400 bytes
+[2025/07/13 13:13:05.097] DeviceIoControl3 error:1 dwBytes:153
+[2025/07/13 13:13:05.097] PhyDrv:0 BusType:SATA Removable:0 Size:2048GB(2000398934016) Sector:512/4096 Name: ST2000DM008-2FR102
+[2025/07/13 13:13:05.097] PhyDrv:1 BusType:SATA Removable:0 Size:256GB(250059350016) Sector:512/512 Name: Samsung SSD 860 EVO 250GB
+[2025/07/13 13:13:05.097] PhyDrv:2 BusType:USB  Removable:1 Size:8GB(7759462400) Sector:0/0 Name:TOSHIBA TransMemory
+[2025/07/13 13:13:05.097] LogicalDrive:\\.\C: PhyDrive:1 Num:1 Offset:122683392 ExtentLength:249378189312
+[2025/07/13 13:13:05.097] Logical Drive:C  ===> PhyDrive:1
+[2025/07/13 13:13:05.097] LogicalDrive:\\.\D: PhyDrive:0 Num:1 Offset:16777216 ExtentLength:2000381018112
+[2025/07/13 13:13:05.098] Logical Drive:D  ===> PhyDrive:0
+[2025/07/13 13:13:05.098] LogicalDrive:\\.\E: PhyDrive:2 Num:1 Offset:1048576 ExtentLength:7758372864
+[2025/07/13 13:13:05.098] Logical Drive:E  ===> PhyDrive:2
+[2025/07/13 13:13:05.098] DeviceIoControl IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS failed \\.\F:, error:1
+[2025/07/13 13:13:05.098] Logical Drive:F  ===> PhyDrive:-1
+[2025/07/13 13:13:05.099] Create file Handle:00000124 \\.\PhysicalDrive2 status:0
+[2025/07/13 13:13:05.099] Read MBR Ret:1 Size:512 code:183
+[2025/07/13 13:13:05.100] =========== Disk2 GPT Partition 1 ============
+[2025/07/13 13:13:05.100] PartTbl.PartType = {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+[2025/07/13 13:13:05.100] PartTbl.PartGuid = {7823edb2-9a4c-4541-9839-35133f47a471}
+[2025/07/13 13:13:05.100] PartTbl.StartLBA = 2048
+[2025/07/13 13:13:05.100] PartTbl.LastLBA = 15155119
+[2025/07/13 13:13:05.100] PartTbl.Attribute = 0x0
+[2025/07/13 13:13:05.100] PartTbl.Name = Main Data Partition
+[2025/07/13 13:13:05.101] Invalid ventoy efi part name <null>
+[2025/07/13 13:13:05.101] < ST2000DM008-2FR102> is filtered for not USB type.
+[2025/07/13 13:13:05.101] < Samsung SSD 860 EVO 250GB> is filtered for not USB type.
+[2025/07/13 13:13:05.128] Load languages from json file ...
+[2025/07/13 13:13:05.129] language json file len:276765 json parse:0
+[2025/07/13 13:13:05.130] Total 51 languages ...
+[2025/07/13 13:13:05.173] Not ventoy disk, set secure boot option
+[2025/07/13 13:13:05.178] Courier New font <C:\WINDOWS\Fonts\couri.ttf> exist OK.
+[2025/07/13 13:13:05.178] system_dir=<C:\WINDOWS\system32>
+[2025/07/13 13:13:05.178] sysnative_dir=<C:\WINDOWS\Sysnative>
+[2025/07/13 13:13:05.178] LoadLibrary shell32.dll.mui SUCCESS
+[2025/07/13 13:13:05.179] SetAlertPromptHook SUCCESS
