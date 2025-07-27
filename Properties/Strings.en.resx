@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AccessDeniedTryingNSudo" xml:space="preserve"><value>Access denied, trying with NSudo:</value></data>
+  <data name="AddingDriveToScan" xml:space="preserve"><value>Added drive to scan:</value></data>
+  <data name="AdvancedProfile" xml:space="preserve"><value>Advanced Profile</value></data>
+  <data name="AdvancedProfileTooltip" xml:space="preserve"><value>Create a category-specific advanced profile</value></data>
+  <data name="AffinityManager" xml:space="preserve"><value>Affinity Manager</value></data>
+  <data name="AffinityManagerTitle" xml:space="preserve"><value>Core Assignment Manager</value></data>
+  <data name="AllCategories" xml:space="preserve"><value>All</value></data>
+  <data name="AppManagement" xml:space="preserve"><value>App Management</value></data>
+  <data name="ApplicationInstaller" xml:space="preserve"><value>Application Installer</value></data>
+  <data name="ApplicationRemover" xml:space="preserve"><value>Application Remover</value></data>
+  <data name="ApplicationRestarted" xml:space="preserve"><value>Application restarted.</value></data>
+  <data name="ApplicationStarted" xml:space="preserve"><value>Application started.</value></data>
+  <data name="AssignAll" xml:space="preserve"><value>Assign to All</value></data>
+  <data name="AssignAllTooltip" xml:space="preserve"><value>Assign selected cores to all devices</value></data>
+  <data name="AssignmentLogs" xml:space="preserve"><value>Assignment Logs</value></data>
+  <data name="AutoAssign" xml:space="preserve"><value>Auto Assign</value></data>
+  <data name="AutoAssignTooltip" xml:space="preserve"><value>Automatically assign cores to devices</value></data>
+  <data name="Backup" xml:space="preserve"><value>Backup</value></data>
+  <data name="BackupBloatware" xml:space="preserve"><value>Backup Bloatware</value></data>
+  <data name="BackupRegistry" xml:space="preserve"><value>Backup Registry (Desktop)</value></data>
+  <data name="Bloatware" xml:space="preserve"><value>Bloatware</value></data>
+  <data name="CancellationRequested" xml:space="preserve"><value>Cancellation requested...</value></data>
+  <data name="ClassicProfile" xml:space="preserve"><value>Classic Profile</value></data>
+  <data name="ClassicProfileTooltip" xml:space="preserve"><value>Create a default profile for all devices</value></data>
+  <data name="CleaningCanceled" xml:space="preserve"><value>Cleaning canceled.</value></data>
+  <data name="CleaningCompleted" xml:space="preserve"><value>Cleaning completed!</value></data>
+  <data name="CleaningEnded" xml:space="preserve"><value>Cleaning process ended.</value></data>
+  <data name="CleaningStarted" xml:space="preserve"><value>Cleaning process started.</value></data>
+  <data name="CleaningStartedWithMode" xml:space="preserve"><value>Cleaning process started with {0} mode.</value></data>
+  <data name="ClearingRecycleBin" xml:space="preserve"><value>Clearing Recycle Bin...</value></data>
+  <data name="ClearingShadowCopies" xml:space="preserve"><value>Clearing shadow copies...</value></data>
+  <data name="ClearLogs" xml:space="preserve"><value>Clear Logs</value></data>
+  <data name="ClearLogsTooltip" xml:space="preserve"><value>Clear the assignment logs</value></data>
+  <data name="CreateRestorePoint" xml:space="preserve"><value>Create System Restore Point</value></data>
+  <data name="DeepClean" xml:space="preserve"><value>Deep Cleanup</value></data>
+  <data name="DeviceDetails" xml:space="preserve"><value>Device Details</value></data>
+  <data name="DirectoryScanError" xml:space="preserve"><value>Directory scan error:</value></data>
+  <data name="EditProfile" xml:space="preserve"><value>Edit Profile</value></data>
+  <data name="EditProfileTooltip" xml:space="preserve"><value>Edit auto-assignment profiles</value></data>
+  <data name="Error" xml:space="preserve"><value>Error</value></data>
+  <data name="ErrorDeletingFile" xml:space="preserve"><value>ERROR: Failed to delete:</value></data>
+  <data name="ErrorNSudoNotFound" xml:space="preserve"><value>Error: NSudo.exe not found!</value></data>
+  <data name="ErrorOccurred" xml:space="preserve"><value>An error occurred!</value></data>
+  <data name="Export" xml:space="preserve"><value>Export</value></data>
+  <data name="ExportTooltip" xml:space="preserve"><value>Export current assignments to a JSON file</value></data>
+  <data name="ExtendedClean" xml:space="preserve"><value>Extended Cleanup</value></data>
+  <data name="FileDeleted" xml:space="preserve"><value>Deleted:</value></data>
+  <data name="FileDeletedAfterKill" xml:space="preserve"><value>Deleted after process kill:</value></data>
+  <data name="FileListingError" xml:space="preserve"><value>File listing error:</value></data>
+  <data name="FilesDeleted" xml:space="preserve"><value>files deleted</value></data>
+  <data name="ForcedDeleteWithNSudo" xml:space="preserve"><value>Forced deletion with NSudo:</value></data>
+  <data name="ForcingDeleteWithNSudo" xml:space="preserve"><value>Forcing deletion with NSudo:</value></data>
+  <data name="GettingDeepCleanPaths" xml:space="preserve"><value>Full scan of C: and D: drives for deep cleanup.</value></data>
+  <data name="GettingQuickCleanPaths" xml:space="preserve"><value>Getting quick cleanup paths.</value></data>
+  <data name="HeaderHome" xml:space="preserve"><value>Home</value></data>
+  <data name="Home" xml:space="preserve"><value>Home</value></data>
+  <data name="HuntStubborn" xml:space="preserve"><value>Remove Stubborn Program</value></data>
+  <data name="ImageCreator" xml:space="preserve"><value>Image &amp; ISO Creator</value></data>
+  <data name="Import" xml:space="preserve"><value>Import</value></data>
+  <data name="ImportTooltip" xml:space="preserve"><value>Import assignments from a JSON file</value></data>
+  <data name="InstallableApps" xml:space="preserve"><value>Installable Applications</value></data>
+  <data name="InstalledApps" xml:space="preserve"><value>Installed Applications</value></data>
+  <data name="InstallSelected" xml:space="preserve"><value>Install Selected</value></data>
+  <data name="IrqTool" xml:space="preserve"><value>IRQ Tool</value></data>
+  <data name="KillingLockedProcess" xml:space="preserve"><value>Terminating locked process:</value></data>
+  <data name="LanguageChange_Title" xml:space="preserve"><value>Language Change</value></data>
+  <data name="LanguageChanged_RestartMessage" xml:space="preserve"><value>Language changed. The application will be restarted for the changes to take effect.</value></data>
+  <data name="NsudoCommandError" xml:space="preserve"><value>NSudo command error (Code:</value></data>
+  <data name="NsudoError" xml:space="preserve"><value>NSudo Error:</value></data>
+  <data name="OperationCanceled" xml:space="preserve"><value>Operation canceled.</value></data>
+  <data name="OperationCompleted" xml:space="preserve"><value>Operation completed.</value></data>
+  <data name="OperationStatusReady" xml:space="preserve"><value>Operation Status: Ready</value></data>
+  <data name="OptimizationManager" xml:space="preserve"><value>Optimization Manager</value></data>
+  <data name="OrEnterProgram" xml:space="preserve"><value>Or enter program name here...</value></data>
+  <data name="ProcessKilled" xml:space="preserve"><value>successfully terminated.</value></data>
+  <data name="QuickClean" xml:space="preserve"><value>Quick General Cleanup (Recommended)</value></data>
+  <data name="RefreshList" xml:space="preserve"><value>Refresh List</value></data>
+  <data name="RegistryBackupRestore" xml:space="preserve"><value>Registry Backup &amp; Restore</value></data>
+  <data name="Restart" xml:space="preserve"><value>Restart</value></data>
+  <data name="RestoreBloatware" xml:space="preserve"><value>Restore Bloatware</value></data>
+  <data name="RestoreRegistry" xml:space="preserve"><value>Restore Registry</value></data>
+  <data name="RestoreStubborn" xml:space="preserve"><value>Restore Removed Program</value></data>
+  <data name="RunningExtendedTools" xml:space="preserve"><value>Running extended system tools.</value></data>
+  <data name="Save" xml:space="preserve"><value>Save</value></data>
+  <data name="SaveTooltip" xml:space="preserve"><value>Save core assignments for selected devices</value></data>
+  <data name="ScanningDirectory" xml:space="preserve"><value>Scanning directory:</value></data>
+  <data name="ScanningDrives" xml:space="preserve"><value>Drives to scan:</value></data>
+  <data name="ScanningPath" xml:space="preserve"><value>Scanning: {0}</value></data>
+  <data name="ScanningStarted" xml:space="preserve"><value>Scanning started:</value></data>
+  <data name="SelectOrEnterProgram" xml:space="preserve"><value>Select Program / Enter Manually:</value></data>
+  <data name="ServiceManagement" xml:space="preserve"><value>Service Management</value></data>
+  <data name="SkippingCriticalDirectory" xml:space="preserve"><value>Skipping critical directory:</value></data>
+  <data name="SkippingCriticalProcess" xml:space="preserve"><value>Skipping critical process:</value></data>
+  <data name="SkippingCriticalSubdirectory" xml:space="preserve"><value>Skipping critical subdirectory:</value></data>
+  <data name="SkippingProtectedFile" xml:space="preserve"><value>Skipping protected file:</value></data>
+  <data name="SkippingSelfProcess" xml:space="preserve"><value>Skipping termination of own process:</value></data>
+  <data name="Start" xml:space="preserve"><value>Start</value></data>
+  <data name="StartingDISMCleanup" xml:space="preserve"><value>Starting DISM component cleanup...</value></data>
+  <data name="StatusReady" xml:space="preserve"><value>Ready</value></data>
+  <data name="Stop" xml:space="preserve"><value>Stop</value></data>
+  <data name="StubbornProgramHunter" xml:space="preserve"><value>Stubborn Program Hunter</value></data>
+  <data name="Success" xml:space="preserve"><value>Success</value></data>
+  <data name="SystemCleanup" xml:space="preserve"><value>System Cleanup</value></data>
+  <data name="TotalDeletedFiles" xml:space="preserve"><value>Total</value></data>
+  <data name="Undo" xml:space="preserve"><value>Undo</value></data>
+  <data name="UndoTooltip" xml:space="preserve"><value>Undo the last operation</value></data>
+  <data name="UninstallSelected" xml:space="preserve"><value>Uninstall Selected</value></data>
+  <data name="UpdateManager" xml:space="preserve"><value>Windows Update</value></data>
+  <data name="WarningNoDrivesFound" xml:space="preserve"><value>WARNING: No C: or D: drives found or accessible.</value></data>
+  <data name="WarningRunAsAdmin" xml:space="preserve"><value>WARNING: Please run as an administrator!</value></data>
+  <data name="WinfastOptimizasyonAraciV131" xml:space="preserve"><value>WinFast Optimization Tool v13.1</value></data>
+  <data name="WithMode" xml:space="preserve"><value>mode with cleaning process started.</value></data>
+  <data name="BackupRegistryMessage" xml:space="preserve"><value>Starting registry backup...</value></data>
+  <data name="RestoreRegistryMessage" xml:space="preserve"><value>Starting registry restore...</value></data>
+  <data name="ErrorMessage" xml:space="preserve"><value>Error during backup: </value></data>
+  <data name="SelectRegistryBackup" xml:space="preserve"><value>Starting registry backup...</value></data>
+  <data name="StartingRegistryBackup" xml:space="preserve"><value>Starting registry backup...</value></data>
+<data name="RegistryBackupMessage" xml:space="preserve"><value>Registry backup: </value></data>
+<data name="UserRegistryBackupMessage" xml:space="preserve"><value>User registry backup: </value></data>
+<data name="BackupFailed" xml:space="preserve"><value>Backup failed! (code </value></data>
+<data name="BackupError" xml:space="preserve"><value>Error during backup: </value></data>
+<data name="RegistryRestored" xml:space="preserve"><value>Registry restored.</value></data>
+<data name="RestoreFailed" xml:space="preserve"><value>Restore failed! (code </value></data>
+<data name="RestoreProcessError" xml:space="preserve"><value>Error: Restore process could not be started.</value></data>
+<data name="RestoreError" xml:space="preserve"><value>Error during restore: </value></data>
+<data name="BackupProcessError" xml:space="preserve"><value>Error during backup process!</value></data>
+<data name="BackupBloatwareMessage" xml:space="preserve"><value>Backing up bloatware...</value></data>
+<data name="BloatwareBackupCompleted" xml:space="preserve"><value>Bloatware backup completed.</value></data>
+<data name="CreatingSystemRestorePoint" xml:space="preserve"><value>Creating system restore point...</value></data>
+<data name="SystemRestorePointCreated" xml:space="preserve"><value>System restore point created.</value></data>
+<data name="DismPlusPlusTitle" xml:space="preserve"><value>Image &amp; ISO Backup Panel</value></data>
+<data name="Step1WimTitle" xml:space="preserve"><value>Step 1: Create System Image (.wim)</value></data>
+<data name="TakeSnapshot" xml:space="preserve"><value>Take Snapshot</value></data>
+<data name="DeleteSnapshot" xml:space="preserve"><value>Delete Snapshot</value></data>
+<data name="CaptureWim" xml:space="preserve"><value>Capture Image (WIM)</value></data>
+<data name="BrowseWim" xml:space="preserve"><value>...</value></data>
+<data name="Step2IsoTitle" xml:space="preserve"><value>Step 2: Create Bootable ISO from Image</value></data>
+<data name="SelectImageTemplate" xml:space="preserve"><value>Select Image Template</value></data>
+<data name="BrowseUserImage" xml:space="preserve"><value>Select Image to Use (.wim)</value></data>
+<data name="CreateIsoFromImage" xml:space="preserve"><value>Create ISO from Selected</value></data>
+<data name="ExtraToolsTitle" xml:space="preserve"><value>Extra Tools</value></data>
+<data name="RefreshUsbList" xml:space="preserve"><value>Refresh USB List</value></data>
+<data name="BrowseIso" xml:space="preserve"><value>Select ISO</value></data>
+<data name="WriteIsoToUsb" xml:space="preserve"><value>Write ISO to USB</value></data>
+<data name="StatusCreatingSnapshot" xml:space="preserve"><value>Taking snapshot...</value></data>
+<data name="StatusDeletingSnapshots" xml:space="preserve"><value>Deleting snapshots...</value></data>
+<data name="StatusCreatingWim" xml:space="preserve"><value>Creating WIM Image...</value></data>
+<data name="StatusCreatingIso" xml:space="preserve"><value>Creating ISO...</value></data>
+<data name="StatusWritingIsoToUsb" xml:space="preserve"><value>Writing ISO to USB...</value></data>
+<data name="SnapshotReady" xml:space="preserve"><value>Snapshot ready!</value></data>
+<data name="AllSnapshotsDeleted" xml:space="preserve"><value>All snapshots deleted.</value></data>
+<data name="IsoReady" xml:space="preserve"><value>ISO ready!</value></data>
+<data name="IsoWrittenToUsb" xml:space="preserve"><value>ISO written to USB!</value></data>
+<data name="VssSnapshotCreating" xml:space="preserve"><value>Creating VSS snapshot...</value></data>
+<data name="SnapshotTakenSuccessfully" xml:space="preserve"><value>Snapshot taken successfully: {0}</value></data>
+<data name="SnapshotFailed" xml:space="preserve"><value>Failed to take snapshot</value></data>
+<data name="SelectWimSavePath" xml:space="preserve"><value>Select WIM File to Save</value></data>
+<data name="PleaseTakeSnapshotFirst" xml:space="preserve"><value>Please take a snapshot first.</value></data>
+<data name="PleaseSelectWimTarget" xml:space="preserve"><value>Please select a target for the .wim file.</value></data>
+<data name="WimBackupStarted" xml:space="preserve"><value>===== WIM BACKUP PROCESS STARTED =====</value></data>
+<data name="WimCaptureCompleted" xml:space="preserve"><value>Image capture completed successfully!</value></data>
+<data name="PermissionsSet" xml:space="preserve"><value>File permissions set.</value></data>
+<data name="PermissionsWarning" xml:space="preserve"><value>WARNING: Permissions could not be set.</value></data>
+<data name="WimAndPermissionsCompleted" xml:space="preserve"><value>Image capture and permission fix completed!</value></data>
+<data name="WimBackupError" xml:space="preserve"><value>Error occurred while creating WIM backup</value></data>
+<data name="SelectUserImage" xml:space="preserve"><value>Select Image File to Use (.wim, .esd)</value></data>
+<data name="SelectValidWimError" xml:space="preserve"><value>Please select a valid .wim file!</value></data>
+<data name="SelectIsoTemplateError" xml:space="preserve"><value>Please select an ISO template!</value></data>
+<data name="SaveIsoDialogTitle" xml:space="preserve"><value>Save the Generated ISO File</value></data>
+<data name="TemplateNotSpecified" xml:space="preserve"><value>Template file not specified.</value></data>
+<data name="IsoPermissionsSet" xml:space="preserve"><value>ISO file permissions set.</value></data>
+<data name="IsoPermissionsWarning" xml:space="preserve"><value>WARNING: ISO file permissions could not be set.</value></data>
+<data name="IsoCreatedSuccessfully" xml:space="preserve"><value>ISO created successfully: {0}</value></data>
+<data name="IsoCreationFailed" xml:space="preserve"><value>ISO creation failed.</value></data>
+<data name="IsoCreationError" xml:space="preserve"><value>Error occurred while creating ISO</value></data>
+<data name="SelectIsoTitle" xml:space="preserve"><value>Select ISO File</value></data>
+<data name="CreateOrSelectIsoError" xml:space="preserve"><value>Please create or select an ISO file first!</value></data>
+<data name="SelectUsbError" xml:space="preserve"><value>Please select a USB drive!</value></data>
+<data name="InvalidDeviceIdError" xml:space="preserve"><value>The selected USB drive's DeviceID is invalid!</value></data>
+<data name="NoDriveLetterError" xml:space="preserve"><value>No drive letter found for the selected USB drive!</value></data>
+<data name="UsbFormatWarning" xml:space="preserve"><value>The USB drive will be formatted and ALL data will be erased!\nDo you want to continue?</value></data>
+<data name="Warning" xml:space="preserve"><value>Warning</value></data>
+<data name="CopyingProgress" xml:space="preserve"><value>Copying: %{0}</value></data>
+<data name="IsoWrittenMessage" xml:space="preserve"><value>ISO written to USB!</value></data>
+<data name="IsoToUsbError" xml:space="preserve"><value>Error occurred while writing ISO to USB</value></data>
+<data name="NoUsbDrivesFound" xml:space="preserve"><value>No USB drives found or no drive letter assigned.</value></data>
+<data name="UsbListError" xml:space="preserve"><value>Error occurred while listing USB drives</value></data>
+<data name="SnapshotCreationFailedWmiNull" xml:space="preserve"><value>Failed to create snapshot! WMI returned null.</value></data>
+<data name="SnapshotCreationFailedWmiCode" xml:space="preserve"><value>Failed to create snapshot! WMI Code: {0}</value></data>
+<data name="NoValidSnapshotId" xml:space="preserve"><value>No valid Snapshot ID obtained.</value></data>
+<data name="NoSnapshotDeviceObject" xml:space="preserve"><value>Snapshot DeviceObject not found.</value></data>
+<data name="NoDeviceObject" xml:space="preserve"><value>DeviceObject not found.</value></data>
+<data name="MountProcessFailed" xml:space="preserve"><value>Failed to start process for mount operation.</value></data>
+<data name="MountFailedError" xml:space="preserve"><value>Mount operation failed! Error: {0}</value></data>
+<data name="DismProcessFailed" xml:space="preserve"><value>Failed to start DISM process.</value></data>
+<data name="ErrorPrefix" xml:space="preserve"><value>ERROR: {0}</value></data>
+<data name="DismFailedCode" xml:space="preserve"><value>DISM operation failed! Exit Code: {0}.</value></data>
+<data name="PowerShellProcessFailed" xml:space="preserve"><value>Failed to start PowerShell process.</value></data>
+<data name="TakeownProcessFailed" xml:space="preserve"><value>Failed to start takeown process.</value></data>
+<data name="IcaclsProcessFailed" xml:space="preserve"><value>Failed to start icacls process.</value></data>
+<data name="FixPermissionsError" xml:space="preserve"><value>[FixFilePermissionsAsync ERROR] {0}</value></data>
+<data name="CleanupStarted" xml:space="preserve"><value>Cleanup process started...</value></data>
+<data name="TempMountRemoved" xml:space="preserve"><value>Temporary mount link removed.</value></data>
+<data name="UnmountError" xml:space="preserve"><value>Unmount error: {0}</value></data>
+<data name="VssDeleteError" xml:space="preserve"><value>VSS deletion error: {0}</value></data>
+<data name="WimscriptWarning" xml:space="preserve"><value>WARNING: wimscript.ini not found. Creating default list...</value></data>
+<data name="WimscriptCreationError" xml:space="preserve"><value>ERROR: Failed to create wimscript.ini: {0}</value></data>
+<data name="ProgressFormat" xml:space="preserve"><value>PROCESS: {0}% complete</value></data>
+<data name="ProgressDisplay" xml:space="preserve"><value>PROCESS: %{0}</value></data>
+<data name="StatusError" xml:space="preserve"><value>Status: Error!</value></data>
+<data name="CriticalError" xml:space="preserve"><value>Critical Error</value></data>
+<data name="CriticalErrorMessage" xml:space="preserve"><value>{0}:\n\n{1}</value></data>
+<data name="OptimizationManagerStarted" xml:space="preserve"><value>OptimizationManagerControl started.</value></data>
+<data name="LoadingOptimizationList" xml:space="preserve"><value>Loading OptimizationList.json: {0}</value></data>
+<data name="OptimizationFileNotFound" xml:space="preserve"><value>Optimization file not found: {0}</value></data>
+<data name="OptimizationsLoaded" xml:space="preserve"><value>{0} optimization settings loaded.</value></data>
+<data name="OptimizationLoadError" xml:space="preserve"><value>Error occurred while loading optimization settings: {0}</value></data>
+<data name="SelectAtLeastOneOptimization" xml:space="preserve"><value>Please select at least one optimization.</value></data>
+<data name="ExecutorNotFound" xml:space="preserve"><value>Executor.ps1 not found!</value></data>
+<data name="RunningCommand" xml:space="preserve"><value>Running {0} command...</value></data>
+<data name="NsudoNotFound" xml:space="preserve"><value>NSudoLC.exe not found.</value></data>
+<data name="CommandCompleted" xml:space="preserve"><value>{0} completed: {1}</value></data>
+<data name="CommandFailed" xml:space="preserve"><value>{0} completed with error: {1} (Output: {2})</value></data>
+<data name="CancelClicked" xml:space="preserve"><value>Cancel button clicked.</value></data>
+<data name="NvidiaNibClicked" xml:space="preserve"><value>Import Nvidia NIB button clicked.</value></data>
+<data name="NvidiaInspectorNotFound" xml:space="preserve"><value>nvidiaProfileInspector.exe not found!</value></data>
+<data name="NvidiaProfileImported" xml:space="preserve"><value>Nvidia profile imported successfully.</value></data>
+<data name="PowerProfileClicked" xml:space="preserve"><value>Load Power Profile button clicked.</value></data>
+<data name="PowerProfileLoaded" xml:space="preserve"><value>Power profile loaded successfully.</value></data>
+<data name="CoreAssignmentClicked" xml:space="preserve"><value>Core Assignment button clicked.</value></data>
+<data name="EnterMask" xml:space="preserve"><value>Core mask:</value></data>
+<data name="CoreAssignmentSuccess" xml:space="preserve"><value>Core assignment completed.</value></data>
+<data name="CoreAssignmentError" xml:space="preserve"><value>Core assignment error: {0}</value></data>
+<data name="LogFileReadError" xml:space="preserve"><value>Failed to read log file: {0}</value></data>
+<data name="OptimizationCompleted" xml:space="preserve"><value>Optimization completed: </value></data>
+<data name="Information" xml:space="preserve"><value>Information</value></data>
+
+<data name="OptimizationManagerTitle" xml:space="preserve"><value>Optimization Manager</value></data>
+<data name="SelectAll" xml:space="preserve"><value>Select All</value></data>
+<data name="SelectSafeOptions" xml:space="preserve"><value>Select Safe Options</value></data>
+<data name="ClearSelection" xml:space="preserve"><value>Clear Selection</value></data>
+<data name="StatusOptimizing" xml:space="preserve"><value>🟡 Optimization Started...</value></data>
+<data name="StatusCompleted" xml:space="preserve"><value>🟩 All operations completed.</value></data>
+<data name="ImportNvidiaNib" xml:space="preserve"><value>Import Nvidia NIB</value></data>
+<data name="OpenPowerProfile" xml:space="preserve"><value>Load Power Profile</value></data>
+<data name="OpenCoreAssignment" xml:space="preserve"><value>Core Assignment</value></data>
+<data name="RunSelectedTweaks" xml:space="preserve"><value>Run Selected Tweaks</value></data>
+<data name="Apply" xml:space="preserve"><value>Apply</value></data>
+<data name="Cancel" xml:space="preserve"><value>Cancel</value></data>
+<data name="NvidiaProfileSelect" xml:space="preserve"><value>Select Nvidia Profile</value></data>
+<data name="PowerProfileSelect" xml:space="preserve"><value>Select Power Profile</value></data>
+<data name="AppForCoreAssignment" xml:space="preserve"><value>Select Application for Core Assignment</value></data>
+<data name="InvalidMask" xml:space="preserve"><value>Invalid mask.</value></data>
+<data name="NamePlaceholder" xml:space="preserve"><value>Name: -</value></data>
+<data name="CategoryPlaceholder" xml:space="preserve"><value>Category: -</value></data>
+<data name="MaskPlaceholder" xml:space="preserve"><value>Mask: -</value></data>
+<data name="SelectedDevices" xml:space="preserve"><value>Selected Devices:</value></data>
+<data name="CategoryMultipleDevices" xml:space="preserve"><value>Category: Multiple devices</value></data>
+<data name="NoDeviceSelected" xml:space="preserve"><value>No device selected</value></data>
+<data name="PleaseSelectAtLeastOneDevice" xml:space="preserve"><value>Please select at least one device</value></data>
+<data name="DeviceUpdated" xml:space="preserve"><value>Device updated: {0} Mask={1}</value></data>
+<data name="UndoSnapshotSaved" xml:space="preserve"><value>Undo snapshot saved: {0} devices</value></data>
+<data name="NoActionToUndo" xml:space="preserve"><value>No action to undo</value></data>
+<data name="LastActionUndone" xml:space="preserve"><value>Last action undone</value></data>
+<data name="AssignedToAll" xml:space="preserve"><value>Assigned to all: {0} Mask={1}</value></data>
+<data name="SelectAtLeastOneCore" xml:space="preserve"><value>Select at least one core</value></data>
+<data name="CoreAssignmentsAppliedToAll" xml:space="preserve"><value>Core assignments applied to all devices</value></data>
+<data name="AutoMaskAssignedToAllDevices" xml:space="preserve"><value>Auto mask assigned to all devices</value></data>
+<data name="AutoCoreAssignmentAppliedToAll" xml:space="preserve"><value>Auto core assignment applied to all devices</value></data>
+<data name="ProfileExportedTo" xml:space="preserve"><value>Profile exported to {0}</value></data>
+<data name="ProfileImported" xml:space="preserve"><value>Profile imported: {0} Mask={1}</value></data>
+<data name="ProfileImportFailedInvalidFile" xml:space="preserve"><value>Profile import failed: Invalid file</value></data>
+<data name="ProfileImportedSuccessfully" xml:space="preserve"><value>Profile imported successfully</value></data>
+<data name="ProfileLoadFailed" xml:space="preserve"><value>Profile load failed: {0}</value></data>
+<data name="EnterCoreCountFor" xml:space="preserve"><value>Enter core count for {0} (e.g., 3)</value></data>
+<data name="ProfileUpdated" xml:space="preserve"><value>Profile updated: Category={0}, Core Count={1}, Mask={2}</value></data>
+<data name="ErrorInvalidCoreCountFor" xml:space="preserve"><value>Error: Invalid core count for {0}: {1}</value></data>
+<data name="InvalidCoreCount" xml:space="preserve"><value>Invalid core count: {0}</value></data>
+<data name="ProfileUpdatedAndSaved" xml:space="preserve"><value>Profile updated and saved</value></data>
+<data name="ClassicProfileCreatedAndSaved" xml:space="preserve"><value>Classic profile created and saved</value></data>
+<data name="ClassicProfileCreated" xml:space="preserve"><value>Classic profile created</value></data>
+<data name="AdvancedProfileCreatedAndSaved" xml:space="preserve"><value>Advanced profile created and saved</value></data>
+<data name="AdvancedProfileCreated" xml:space="preserve"><value>Advanced profile created</value></data>
+<data name="LogsCleared" xml:space="preserve"><value>Logs cleared</value></data>
+<data name="FilterApplied" xml:space="preserve"><value>Filter applied: Category={0}, Search={1}</value></data>
+<data name="DevicesLoaded" xml:space="preserve"><value>{0} devices loaded</value></data>
+<data name="DevicesCouldNotBeLoadedWMI" xml:space="preserve"><value>Devices could not be loaded: WMI service might be down</value></data>
+<data name="FailedToListHardware" xml:space="preserve"><value>Failed to list hardware: {0}</value></data>
+<data name="WMIError" xml:space="preserve"><value>WMI error: {0}</value></data>
+<data name="CoreCheckboxesCreated" xml:space="preserve"><value>Core checkboxes ({0}) created</value></data>
+<data name="ProfileLoadedFromAffinityProfileJson" xml:space="preserve"><value>Profile loaded from AffinityProfile.json</value></data>
+<data name="ProfileFileCouldNotBeRead" xml:space="preserve"><value>Profile file could not be read: {0}</value></data>
+<data name="DefaultProfileLoaded" xml:space="preserve"><value>Default profile loaded</value></data>
+<data name="ProfileSavedToAffinityProfileJson" xml:space="preserve"><value>Profile saved to AffinityProfile.json</value></data>
+<data name="GPUAutoAssignment" xml:space="preserve"><value>GPU auto assignment: {0} → Mask=0x{1} (CPU{2})</value></data>
+<data name="AutoAssignment" xml:space="preserve"><value>Auto assignment: {0} → Mask=0x{1} ({2})</value></data>
+<data name="Name" xml:space="preserve"><value>Name</value></data>
+<data name="ErrorInsufficientCores" xml:space="preserve"><value>Error: Insufficient cores</value></data>
+  <data name="Category" xml:space="preserve"><value>Category</value></data>
+  <data name="Mask" xml:space="preserve"><value>Mask</value></data>
+  <data name="CoreAssignmentsSaved" xml:space="preserve"><value>Core assignments saved</value></data> 
+  <data name="SaveMask" xml:space="preserve"><value>Save</value></data>
+  <data name="All" xml:space="preserve"><value>All</value></data>
+  <data name="AssignToAll" xml:space="preserve"><value>Assign to All</value></data>
+  <data name="Automatic" xml:space="preserve"><value>Automatic</value></data>
+  <data name="AutoPlay" xml:space="preserve"><value>AutoPlay [Automatic driver installation]</value></data>
+  <data name="Biometric" xml:space="preserve"><value>Biometric [Fingerprint, HelloFace]</value></data>
+  <data name="BitLocker" xml:space="preserve"><value>BitLocker Drive Encryption</value></data>
+  <data name="BloatwareCleaner" xml:space="preserve"><value>Bloatware Cleaner</value></data>
+  <data name="Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="ClearLog" xml:space="preserve"><value>Clear Log</value></data>
+  <data name="Connection" xml:space="preserve"><value>Connection</value></data>
+  <data name="ContactsSync" xml:space="preserve"><value>Contacts [Sync host]</value></data>
+  <data name="CpuUsage" xml:space="preserve"><value>CPU Usage</value></data>
+  <data name="CreateAdvancedProfile" xml:space="preserve"><value>Create Advanced Profile</value></data>
+  <data name="CreateClassicProfile" xml:space="preserve"><value>Create Classic Profile</value></data>
+  <data name="DeliveryOptimization" xml:space="preserve"><value>Delivery Optimization [Store, Xbox, Updates]</value></data>
+  <data name="Dependencies" xml:space="preserve"><value>Dependencies</value></data>
+  <data name="Description" xml:space="preserve"><value>Description</value></data>
+  <data name="Device" xml:space="preserve"><value>Device</value></data>
+  <data name="Disabled" xml:space="preserve"><value>Disabled</value></data>
+  <data name="DiskDefragment" xml:space="preserve"><value>Disk Defragmentation [SSD/HDD, Trim]</value></data>
+  <data name="Enterprise" xml:space="preserve"><value>Enterprise [Kiosk mode, Intune, AppLocker]</value></data>
+  <data name="FastStartup" xml:space="preserve"><value>Fast Startup [HDD]</value></data>
+  <data name="FastUserSwitch" xml:space="preserve"><value>Fast User Switching [Blizzard]</value></data>
+  <data name="FontCache" xml:space="preserve"><value>Font Cache [HDD]</value></data>
+  <data name="GameDVR" xml:space="preserve"><value>Game DVR and Broadcasting [Xbox screen recording]</value></data>
+  <data name="HotspotMiracast" xml:space="preserve"><value>Mobile Hotspot [Miracast]</value></data>
+  <data name="InstallationCompleted" xml:space="preserve"><value>Installation for all selected updates is complete.</value></data>
+  <data name="InstallSelectedUpdates" xml:space="preserve"><value>Install Selected Updates</value></data>
+  <data name="InstallingSelectedUpdates" xml:space="preserve"><value>Installing selected updates...</value></data>
+  <data name="IPHelper" xml:space="preserve"><value>IP Helper [IPv6]</value></data>
+  <data name="Location" xml:space="preserve"><value>Location</value></data>
+  <data name="Manual" xml:space="preserve"><value>Manual</value></data>
+  <data name="MapsManager" xml:space="preserve"><value>Downloaded Maps Manager</value></data>
+  <data name="Media" xml:space="preserve"><value>Media</value></data>
+  <data name="MeteredNetworks" xml:space="preserve"><value>Metered Connection Manager</value></data>
+  <data name="MiracastWireless" xml:space="preserve"><value>Miracast [Wireless Display]</value></data>
+  <data name="MixedReality" xml:space="preserve"><value>Mixed Reality [VR]</value></data>
+  <data name="NearbyDevices" xml:space="preserve"><value>Router for Nearby Devices</value></data>
+  <data name="NoUpdatesFound" xml:space="preserve"><value>No updates found.</value></data>
+  <data name="NotSelected" xml:space="preserve"><value>Not Selected</value></data>
+  <data name="Other" xml:space="preserve"><value>Other</value></data>
+  <data name="ParentControl" xml:space="preserve"><value>Parental Controls</value></data>
+  <data name="PendingWindowsUpdates" xml:space="preserve"><value>Pending Windows Updates</value></data>
+  <data name="PenTouch" xml:space="preserve"><value>Pen and Touch</value></data>
+  <data name="PerformanceLogs" xml:space="preserve"><value>Performance Logs [Enterprise]</value></data>
+  <data name="PhoneBluetooth" xml:space="preserve"><value>Phone [Bluetooth]</value></data>
+  <data name="PleaseSelectAtLeastOneUpdate" xml:space="preserve"><value>Please select at least one update to install.</value></data>
+  <data name="PowerShellError" xml:space="preserve"><value>PowerShell Error:</value></data>
+  <data name="Printer" xml:space="preserve"><value>Printer</value></data>
+  <data name="RadioAirplaneMode" xml:space="preserve"><value>Radio and Airplane Mode</value></data>
+  <data name="Refresh" xml:space="preserve"><value>Refresh</value></data>
+  <data name="RemoteDesktop" xml:space="preserve"><value>Remote Desktop</value></data>
+  <data name="Remove" xml:space="preserve"><value>Remove</value></data>
+  <data name="RemoveAll" xml:space="preserve"><value>Remove All</value></data>
+  <data name="Restore" xml:space="preserve"><value>Restore</value></data>
+  <data name="RetailDemo" xml:space="preserve"><value>Retail Demo</value></data>
+  <data name="ScanningUpdates" xml:space="preserve"><value>Scanning for updates...</value></data>
+  <data name="ScannerCamera" xml:space="preserve"><value>Scanner and Camera [OBS]</value></data>
+  <data name="SearchServices" xml:space="preserve"><value>Search services...</value></data>
+  <data name="Security" xml:space="preserve"><value>Security</value></data>
+  <data name="SelectAndInstall" xml:space="preserve"><value>You can select and install.</value></data>
+  <data name="SelectRecommended" xml:space="preserve"><value>Select Recommended</value></data>
+  <data name="Sensors" xml:space="preserve"><value>Sensors [Laptop]</value></data>
+  <data name="ServiceName" xml:space="preserve"><value>Name</value></data>
+  <data name="ServiceStopFailed" xml:space="preserve"><value>Failed to stop service {0}: </value></data>
+  <data name="ServiceStopped" xml:space="preserve"><value>Service {0} stopped.</value></data>
+  <data name="ServicesLoadError" xml:space="preserve"><value>Could not load services</value></data>
+  <data name="ServiceAlreadyStopped" xml:space="preserve"><value>Service {0} is already stopped.</value></data>
+  <data name="ServiceNotFound" xml:space="preserve"><value>Service {0} not found.</value></data>
+  <data name="SmartCard" xml:space="preserve"><value>Smart Card [Chip card reader]</value></data>
+  <data name="SnippingTool" xml:space="preserve"><value>Screen Capture</value></data>
+  <data name="StartType" xml:space="preserve"><value>Startup Type</value></data>
+  <data name="Status" xml:space="preserve"><value>Status</value></data>
+  <data name="StopSelectedServices" xml:space="preserve"><value>Stop Selected Services</value></data>
+  <data name="StreamingNetwork" xml:space="preserve"><value>Streaming Connected: Network data, printer sharing</value></data>
+  <data name="SuggestedStoppableServices" xml:space="preserve"><value>Suggested Stoppable Services</value></data>
+  <data name="SuccessfullyInstalled" xml:space="preserve"><value>successfully installed</value></data>
+  <data name="System" xml:space="preserve"><value>System</value></data>
+  <data name="SystemRestore" xml:space="preserve"><value>System Restore [File History]</value></data>
+  <data name="Telemetry" xml:space="preserve"><value>Telemetry</value></data>
+  <data name="TimeZoneUpdater" xml:space="preserve"><value>Automatic Time Zone Updater</value></data>
+  <data name="Troubleshooting" xml:space="preserve"><value>Troubleshooting</value></data>
+  <data name="UpdatesFound" xml:space="preserve"><value>updates found</value></data>
+  <data name="VoiceCommand" xml:space="preserve"><value>Voice Command [Cortana]</value></data>
+  <data name="Wallet" xml:space="preserve"><value>Wallet</value></data>
+  <data name="WifiWARP" xml:space="preserve"><value>Wifi [Cloudflare WARP]</value></data>
+  <data name="WindowsConnectNow" xml:space="preserve"><value>Windows Connect Now [WPS]</value></data>
+  <data name="WindowsInsider" xml:space="preserve"><value>Windows Insider</value></data>
+  <data name="WindowsSearch" xml:space="preserve"><value>Windows Search Indexing</value></data>
+  <data name="Xbox" xml:space="preserve"><value>Xbox</value></data>
+  <data name="Home_Title" xml:space="preserve"><value>WinFast: Unlock Performance in Windows</value></data>
+  <data name="Home_Subtitle" xml:space="preserve"><value>Lighten Your System, Excel in Your Games and Applications.</value></data>
+  <data name="Home_WhatIsWinFast_Title" xml:space="preserve"><value>What is WinFast?</value></data>
+  <data name="Home_WhatIsWinFast_Description" xml:space="preserve"><value>WinFast is a powerful optimization tool designed to free your Windows operating system from unnecessary services, privacy-violating telemetry data, and "bloatware" applications that consume your system resources. It is developed especially for gamers, power users, and those seeking a clean system experience. With WinFast, control is entirely in your hands.</value></data>
+  <data name="Home_FeaturesAndUsage_Title" xml:space="preserve"><value>Main Features and Usage</value></data>
+  <data name="Home_Feature_OptimizationManager_Title" xml:space="preserve"><value>Optimization Manager</value></data>
+  <data name="Home_Feature_OptimizationManager_Description" xml:space="preserve"><value>This section allows you to manage dozens of tweaks that directly impact your system's performance from a single screen. Built with years of experience and powered by reliable PowerShell scripts, these optimizations run with SYSTEM privileges to modify even the deepest system settings.</value></data>
+  <data name="Home_Feature_ApplicationRemover_Title" xml:space="preserve"><value>Application Remover</value></data>
+  <data name="Home_Feature_ApplicationRemover_Description" xml:space="preserve"><value>Allows you to completely remove Microsoft Store applications that come with Windows and are often unused (e.g., Weather, News, 3D Builder). The 'Recommended' label in the list guides you on which applications can be safely removed.</value></data>
+  <data name="Home_Feature_CustomTools_Title" xml:space="preserve"><value>Custom Tools</value></data>
+  <data name="Home_Feature_CustomTools_Description" xml:space="preserve"><value>Includes special buttons designed for advanced users, allowing you to perform specific actions (e.g., importing an Nvidia profile, loading a custom power profile).</value></data>
+  <data name="Home_QuickStartSteps_Title" xml:space="preserve"><value>Quick Start Steps</value></data>
+  <data name="Home_QuickStartStep_1" xml:space="preserve"><value>•  1. Run as Administrator: Always start the application by right-clicking and selecting 'Run as administrator'.</value></data>
+  <data name="Home_QuickStartStep_2" xml:space="preserve"><value>•  2. Navigate to the Relevant Tab: Choose either the 'Optimization Manager' or 'Application Remover' tab.</value></data>
+  <data name="Home_QuickStartStep_3" xml:space="preserve"><value>•  3. Make Your Selections: Carefully select the items you want to apply or remove from the lists.</value></data>
+  <data name="Home_QuickStartStep_4" xml:space="preserve"><value>•  4. Start the Process: Begin the operation by clicking the relevant button ('Start Selected' or 'Remove').</value></data>
+  <data name="Home_QuickStartStep_5" xml:space="preserve"><value>•  5. Check the Logs: The application's log screen and the C:\Temp\WinFast_PS_Log.txt file will show you the results.</value></data>
+  <data name="Home_QuickStartStep_6" xml:space="preserve"><value>•  6. Restart: After all operations are complete, restart your computer for the settings to take full effect.</value></data>
+  <data name="Home_Warnings_Title" xml:space="preserve"><value>⚠️ WARNINGS &amp; DISCLAIMER</value></data>
+  <data name="Home_Warnings_Description" xml:space="preserve"><value>WinFast is a powerful tool that makes deep changes to your system. The responsibility for the actions you perform is entirely yours. It is strongly recommended that you create a System Restore Point before making any major changes.&#x0a;&#x0a;Removing critical system components can lead to problems that are difficult to reverse. If you are not sure what you are doing, do not check the corresponding options. This tool is designed with 'experienced users' in mind.</value></data>
+  <data name="Home_Footer" xml:space="preserve"><value>WinFast is a constantly evolving project. Enjoy!</value></data>
+</root>

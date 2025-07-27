@@ -1,0 +1,678 @@
+[
+  {
+    "DeviceName": "Samsung SSD 860 EVO 250GB",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "USB Giri\u015F Ayg\u0131t\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "High Definition Audio Denetleyicisi",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "\u0130AC uyumlu sistem denetleyicisi",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Anakart kaynaklar\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI Express Yukar\u0131 Ak\u0131\u015F Anahtar Ba\u011Flant\u0131 Noktas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI standart ana bilgisayar CPU k\u00F6pr\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Birim",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "USB Giri\u015F Ayg\u0131t\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Realtek(R) Audio",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Realtek Audio Effects Component",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "K\u00F6k Yazd\u0131rma Kuyru\u011Fu",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD GPIO Controller",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "\u0130AC Klavye Ayg\u0131t\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Birim Y\u00F6neticisi",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Y\u00FCksek duyarl\u0131kl\u0131 olay s\u00FCre\u00F6l\u00E7eri",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "USBZH3-ENC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI Express A\u015Fa\u011F\u0131 Ak\u0131\u015F Anahtar Ba\u011Flant\u0131 Noktas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "WAN Miniport (PPPOE)",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI standart ana bilgisayar CPU k\u00F6pr\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD Ryzen 5 3600X 6-Core Processor             ",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD Ryzen 5 3600X 6-Core Processor             ",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD Ryzen 5 3600X 6-Core Processor             ",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD Ryzen 5 3600X 6-Core Processor             ",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD Ryzen 5 3600X 6-Core Processor             ",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD Ryzen 5 3600X 6-Core Processor             ",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD Ryzen 5 3600X 6-Core Processor             ",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD Ryzen 5 3600X 6-Core Processor             ",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD Ryzen 5 3600X 6-Core Processor             ",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD Ryzen 5 3600X 6-Core Processor             ",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD Ryzen 5 3600X 6-Core Processor             ",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD Ryzen 5 3600X 6-Core Processor             ",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Realtek PCIe GbE Family Controller",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Microsoft Temel G\u00F6r\u00FCnt\u00FC S\u00FCr\u00FCc\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD GPIO Controller",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD PCI",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Anakart kaynaklar\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel IEEE 1667 Ara\u015Ft\u0131rma Silosu",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "\u0130AC uyumlu fare",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "GB-2428FF (NVIDIA High Definition Audio)",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Microsoft RRAS Root Enumerator",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Programlanabilir kesme denetleyicisi",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI Express K\u00F6k Ba\u011Flant\u0131 Noktas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI Express K\u00F6k Ba\u011Flant\u0131 Noktas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "USB Giri\u015F Ayg\u0131t\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI Express A\u015Fa\u011F\u0131 Ak\u0131\u015F Anahtar Ba\u011Flant\u0131 Noktas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "WAN Miniport (PPTP)",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Realtek Audio Universal Service",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "\u0130AC uyumlu t\u00FCketici denetimi ayg\u0131t\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Microsoft Print to PDF",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Microsoft Hyper-V Sanalla\u015Ft\u0131rma Altyap\u0131s\u0131 S\u00FCr\u00FCc\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "WAN Miniport (IKEv2)",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Bile\u015Fik Veri Yolu Numaraland\u0131r\u0131c\u0131s\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Microsoft Sanal S\u00FCr\u00FCc\u00FC Listeleyicisi",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Hoparl\u00F6r (USBZH3-ENC)",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI Express K\u00F6k Ba\u011Flant\u0131 Noktas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI Express K\u00F6k Ba\u011Flant\u0131 Noktas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD USB 3.10 eXtensible Host Controller - 1.10 (Microsoft)",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI Express A\u015Fa\u011F\u0131 Ak\u0131\u015F Anahtar Ba\u011Flant\u0131 Noktas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "USB Bile\u015Fik Ayg\u0131t",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Microsoft Depolama Alanlar\u0131 Denetleyicisi",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI standart ana bilgisayar CPU k\u00F6pr\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "NVIDIA High Definition Audio",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "\u0130leti\u015Fim Ba\u011Flant\u0131 Noktas\u0131 (COM1)",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "NVIDIA GeForce RTX 3060",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Microsoft Kernel Debug Network Adapter",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Microsoft XPS Document Writer",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Mikrofon (USBAudio2.0)",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI standart ISA k\u00F6pr\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "USB K\u00F6k Hub (USB 3.0)",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI standart ana bilgisayar CPU k\u00F6pr\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI standart ana bilgisayar CPU k\u00F6pr\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI standart ana bilgisayar CPU k\u00F6pr\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI standart ana bilgisayar CPU k\u00F6pr\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI standart ana bilgisayar CPU k\u00F6pr\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI standart ana bilgisayar CPU k\u00F6pr\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI standart ana bilgisayar CPU k\u00F6pr\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI standart ana bilgisayar CPU k\u00F6pr\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI standart ana bilgisayar CPU k\u00F6pr\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Realtek Hardware Support Application",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD SMBUS",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "UMBus K\u00F6k Veri Yolu Numaraland\u0131r\u0131c\u0131s\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Microsoft Radio Device Enumeration Bus",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel b\u00F6l\u00FCm g\u00F6lge kopyas\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Sistem kart\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Microsoft Device Association Root Enumerator",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "ACPI x64 tabanl\u0131 bilgisayar",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Microsoft Windows Y\u00F6netim Arabirimi, ACPI i\u00E7in",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Standart SATA AHCI Denetleyici",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "High Definition Audio Denetleyicisi",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "USB K\u00F6k Hub (USB 3.0)",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "WAN Miniport (Network Monitor)",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "WAN Miniport (IP)",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Microsoft Windows Y\u00F6netim Arabirimi, ACPI i\u00E7in",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI Express Karma\u015F\u0131k K\u00F6k",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI standart ana bilgisayar CPU k\u00F6pr\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Sistem s\u00FCre\u00F6l\u00E7eri",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Microsoft TCG Depolama silosu",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Microsoft ACPI Uyumlu Sistem",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Bilinmeyen Ayg\u0131t",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "\u0130AC uyumlu t\u00FCketici denetimi ayg\u0131t\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Microsoft Temel Olu\u015Fturma S\u00FCr\u00FCc\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "ST2000DM008-2FR102",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "WAN Miniport (SSTP)",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD PCI",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "MediaCenter-c6fd6b78",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "G\u00FCvenilir Platform Mod\u00FCl\u00FC 2.0",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Birim",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "ACPI Sabit \u00D6zellik D\u00FC\u011Fmesi",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Genel PnP Monit\u00F6r",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Microsoft Windows Y\u00F6netim Arabirimi, ACPI i\u00E7in",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Mikrofon (USBZH3-ENC)",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI standart ana bilgisayar CPU k\u00F6pr\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Anakart kaynaklar\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Birim",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "\u0130AC Klavye Ayg\u0131t\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "USB Bile\u015Fik Ayg\u0131t",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Sistem hoparl\u00F6r\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Fax",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Microsoft GS Dalga Tablosu Birle\u015Ftirici",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "ACPI A\u00E7ma/Kapama D\u00FC\u011Fmesi",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI standart ana bilgisayar CPU k\u00F6pr\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Birim",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "NDIS Sanal A\u011F Ba\u011Fda\u015Ft\u0131r\u0131c\u0131 Listeleyicisi",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "USB Giri\u015F Ayg\u0131t\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "\u0130AC uyumlu t\u00FCketici denetimi ayg\u0131t\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "USB Bile\u015Fik Ayg\u0131t",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Do\u011Frudan bellek eri\u015Fimi denetleyicisi",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "USBAudio2.0",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "USB Giri\u015F Ayg\u0131t\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "USB Bile\u015Fik Ayg\u0131t",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Anakart kaynaklar\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Birim",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "\u0130AC uyumlu sat\u0131c\u0131 taraf\u0131ndan tan\u0131mlanan cihaz",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD USB 3.10 eXtensible Host Controller - 1.10 (Microsoft)",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "USB Giri\u015F Ayg\u0131t\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Generic IEEE 1667 ACT",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Sistem CMOS/ger\u00E7ek zaman saati",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "AMD PSP 11.0 Device",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Microsoft Sistem Y\u00F6netimi BIOS S\u00FCr\u00FCc\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "PCI standart ana bilgisayar CPU k\u00F6pr\u00FCs\u00FC",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "MediaCenter-c6fd6b78",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Tak ve Kullan Yaz\u0131l\u0131m Ayg\u0131t Numaraland\u0131r\u0131c\u0131s\u0131",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "Uzak Masa\u00FCst\u00FC Ayg\u0131t Yeniden Y\u00F6nlendirici Veri Yolu",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "WAN Miniport (IPv6)",
+    "PreviousMask": 3
+  },
+  {
+    "DeviceName": "WAN Miniport (L2TP)",
+    "PreviousMask": 3
+  }
+]

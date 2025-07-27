@@ -1,0 +1,24 @@
+﻿C:\pagefile.sys
+C:\hiberfil.sys
+C:\swapfile.sys
+C:\$Recycle.Bin\
+C:\system Volume Information\
+C:\Windows\CSC\
+C:\Windows\Temp\
+C:\Temp\
+C:\Users\pc\AppData\Local\Temp\
+C:\Users\pc\AppData\Local\Microsoft\Windows\WER\
+C:\Users\pc\AppData\Local\Microsoft\Windows\INetCache\
+C:\Users\pc\AppData\Local\Microsoft\Windows\WebCache\
+C:\Users\pc\Downloads\
+C:\Users\pc\Videos\
+C:\Users\pc\Music\
+C:\Users\pc\Pictures\
+C:\Users\pc\OneDrive\
+C:\Users\pc\Google Drive\
+C:\Users\pc\Dropbox\
+C:\Windows\SoftwareDistribution\Download\
+C:\Windows\Logs\
+C:\Windows\Panther\
+C:\$WINDOWS.~BT\
+C:\$WINDOWS.~WS\

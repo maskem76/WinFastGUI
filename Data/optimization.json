@@ -1,0 +1,272 @@
+﻿[
+  {
+    "Key": "Optimize-SystemPerformance",
+    "Category": "SystemPerformance",
+    "Title": "Genel Sistem Performansını Optimize Et",
+    "TitleEn": "Optimize General System Performance",
+    "Description": "Sistem performansını artıran registry ayarlarını uygular.",
+    "DescriptionEn": "Applies registry settings to boost system performance.",
+    "Warning": "Bazı ayarlar sistem kararlılığını etkileyebilir.",
+    "WarningEn": "Some settings may affect system stability."
+  },
+  {
+    "Key": "Optimize-BackgroundApps",
+    "Category": "BackgroundApps",
+    "Title": "Gereksiz Arka Plan Uygulamalarını Kapat",
+    "TitleEn": "Disable Unnecessary Background Apps",
+    "Description": "Arka planda çalışan uygulamaları kapatır.",
+    "DescriptionEn": "Disables background running applications.",
+    "Warning": "Bazı uygulamalar düzgün çalışmayabilir.",
+    "WarningEn": "Some applications may not work properly."
+  },
+  {
+    "Key": "Optimize-ExplorerSettings",
+    "Category": "ExplorerSettings",
+    "Title": "Dosya Gezgini Ayarlarını Optimize Et",
+    "TitleEn": "Optimize File Explorer Settings",
+    "Description": "Dosya Gezgini performansını artırır.",
+    "DescriptionEn": "Boosts File Explorer performance.",
+    "Warning": "",
+    "WarningEn": ""
+  },
+  {
+    "Key": "Optimize-VisualEffects",
+    "Category": "VisualEffects",
+    "Title": "Görsel Efektleri Kapat",
+    "TitleEn": "Disable Visual Effects",
+    "Description": "Görsel efektleri devre dışı bırakarak performansı artırır.",
+    "DescriptionEn": "Disables visual effects to improve performance.",
+    "Warning": "Arayüz daha sade görünebilir.",
+    "WarningEn": "The interface may appear simpler."
+  },
+  {
+    "Key": "Optimize-SearchSettings",
+    "Category": "SearchSettings",
+    "Title": "Arama Ayarlarını Optimize Et",
+    "TitleEn": "Optimize Search Settings",
+    "Description": "Arama performansını artırır ve bulut aramayı kapatır.",
+    "DescriptionEn": "Enhances search performance and disables cloud search.",
+    "Warning": "",
+    "WarningEn": ""
+  },
+  {
+    "Key": "Optimize-AdvancedNetworkTweaks",
+    "Category": "AdvancedNetworkTweaks",
+    "Title": "Gelişmiş Ağ Optimizasyonları (İnteraktif)",
+    "TitleEn": "Advanced Network Optimizations (Interactive)",
+    "Description": "Ağ ayarlarını optimize eder ve DNS seçenekleri sunar.",
+    "DescriptionEn": "Optimizes network settings and provides DNS options.",
+    "Warning": "DNS ayarları internet bağlantısını etkileyebilir.",
+    "WarningEn": "DNS settings may affect internet connectivity."
+  },
+  {
+    "Key": "Optimize-GameMode",
+    "Category": "GameMode",
+    "Title": "Windows Oyun Modunu Optimize Et",
+    "TitleEn": "Optimize Windows Game Mode",
+    "Description": "Oyun performansını artırır.",
+    "DescriptionEn": "Enhances game performance.",
+    "Warning": "Oyun çubuğu devre dışı kalabilir.",
+    "WarningEn": "Game bar may be disabled."
+  },
+  {
+    "Key": "Optimize-MMCSS_Profiles",
+    "Category": "MMCSS_Profiles",
+    "Title": "MMCSS Multimedya Profillerini Optimize Et",
+    "TitleEn": "Optimize MMCSS Multimedia Profiles",
+    "Description": "Multimedya işlemleri için öncelik ayarlarını optimize eder.",
+    "DescriptionEn": "Optimizes priority settings for multimedia operations.",
+    "Warning": "",
+    "WarningEn": ""
+  },
+  {
+    "Key": "Optimize-TelemetryAndPrivacy",
+    "Category": "TelemetryAndPrivacy",
+    "Title": "Telemetri ve Gizlilik Ayarlarını Kapat",
+    "TitleEn": "Disable Telemetry and Privacy Settings",
+    "Description": "Telemetri ve gizlilikle ilgili ayarları kapatır.",
+    "DescriptionEn": "Disables telemetry and privacy-related settings.",
+    "Warning": "Bazı Microsoft hizmetleri etkilenebilir.",
+    "WarningEn": "Some Microsoft services may be affected."
+  },
+  {
+    "Key": "Optimize-WindowsDefender",
+    "Category": "WindowsDefender",
+    "Title": "Windows Defender'ı Devre Dışı Bırak",
+    "TitleEn": "Disable Windows Defender",
+    "Description": "Windows Defender'ı devre dışı bırakır.",
+    "DescriptionEn": "Disables Windows Defender.",
+    "Warning": "Sistem güvenliği risk altında olabilir.",
+    "WarningEn": "System security may be at risk."
+  },
+  {
+    "Key": "Optimize-CoreIsolation",
+    "Category": "CoreIsolation",
+    "Title": "Çekirdek Yalıtımını (Bellek Bütünlüğü) Kapat",
+    "TitleEn": "Disable Core Isolation (Memory Integrity)",
+    "Description": "Çekirdek yalıtımını devre dışı bırakır.",
+    "DescriptionEn": "Disables core isolation (memory integrity).",
+    "Warning": "Güvenlik riski artabilir.",
+    "WarningEn": "Security risk may increase."
+  },
+  {
+    "Key": "Optimize-WindowsUpdates",
+    "Category": "WindowsUpdates",
+    "Title": "Windows Güncellemelerini Optimize Et (Manuel)",
+    "TitleEn": "Optimize Windows Updates (Manual)",
+    "Description": "Güncellemeleri manuel moda alır.",
+    "DescriptionEn": "Switches updates to manual mode.",
+    "Warning": "Otomatik güncellemeler devre dışı kalır.",
+    "WarningEn": "Automatic updates will be disabled."
+  },
+  {
+    "Key": "Optimize-Updates_CompleteDisable",
+    "Category": "Updates_CompleteDisable",
+    "Title": "Windows Update'i Tamamen Kapat",
+    "TitleEn": "Completely Disable Windows Update",
+    "Description": "Windows Update'i tamamen devre dışı bırakır.",
+    "DescriptionEn": "Completely disables Windows Update.",
+    "Warning": "Sistem güncellemeleri almaz, güvenlik riski artabilir.",
+    "WarningEn": "System will not receive updates, increasing security risk."
+  },
+  {
+    "Key": "Optimize-MicrosoftEdge",
+    "Category": "MicrosoftEdge",
+    "Title": "Microsoft Edge'i Devre Dışı Bırak",
+    "TitleEn": "Disable Microsoft Edge",
+    "Description": "Microsoft Edge'i devre dışı bırakır.",
+    "DescriptionEn": "Disables Microsoft Edge.",
+    "Warning": "Edge kullanılamaz hale gelebilir.",
+    "WarningEn": "Edge may become unusable."
+  },
+  {
+    "Key": "Optimize-Input_Optimizations",
+    "Category": "Input_Optimizations",
+    "Title": "Giriş Aygıtı (Fare/Klavye) Optimizasyonları",
+    "TitleEn": "Optimize Input Devices (Mouse/Keyboard)",
+    "Description": "Fare ve klavye gecikmesini azaltır.",
+    "DescriptionEn": "Reduces mouse and keyboard latency.",
+    "Warning": "",
+    "WarningEn": ""
+  },
+  {
+    "Key": "Optimize-MPO_Optimization",
+    "Category": "MPO_Optimization",
+    "Title": "Multi-Plane Overlay (MPO) Kapat",
+    "TitleEn": "Disable Multi-Plane Overlay (MPO)",
+    "Description": "MPO'yu devre dışı bırakarak ekran kartı performansını artırır.",
+    "DescriptionEn": "Disables MPO to boost GPU performance.",
+    "Warning": "Bazı ekranlarda sorun çıkabilir.",
+    "WarningEn": "Issues may occur on some displays."
+  },
+  {
+    "Key": "Invoke-AutomaticOptimization",
+    "Category": "AutomaticOptimization",
+    "Title": "Otomatik Optimizasyon (Tüm Önerilenler)",
+    "TitleEn": "Automatic Optimization (All Recommended)",
+    "Description": "Tüm önerilen optimizasyonları otomatik olarak uygular.",
+    "DescriptionEn": "Automatically applies all recommended optimizations.",
+    "Warning": "Sistem ayarlarını kapsamlı şekilde değiştirir.",
+    "WarningEn": "Extensively modifies system settings."
+  },
+  {
+    "Key": "Optimize-GeneralCleanup",
+    "Category": "GeneralCleanup",
+    "Title": "Genel Sistem Temizliği",
+    "TitleEn": "General System Cleanup",
+    "Description": "Geçici dosyaları ve gereksiz verileri temizler.",
+    "DescriptionEn": "Cleans temporary files and unnecessary data.",
+    "Warning": "",
+    "WarningEn": ""
+  },
+  {
+    "Key": "Optimize-CleanRegistry",
+    "Category": "CleanRegistry",
+    "Title": "Kayıt Defteri Temizliği",
+    "TitleEn": "Clean Registry",
+    "Description": "Kayıt defterindeki gereksiz girişleri temizler.",
+    "DescriptionEn": "Cleans unnecessary registry entries.",
+    "Warning": "Dikkatli olun, hatalı temizleme sorunlara yol açabilir.",
+    "WarningEn": "Be careful, incorrect cleanup may cause issues."
+  },
+  {
+    "Key": "Optimize-Network",
+    "Category": "Network",
+    "Title": "Ağ Ayarlarını Optimize Et",
+    "TitleEn": "Optimize Network Settings",
+    "Description": "Ağ performansını artıran ayarları uygular.",
+    "DescriptionEn": "Applies settings to improve network performance.",
+    "Warning": "Ağ bağlantısında geçici kesintiler olabilir.",
+    "WarningEn": "Temporary network disruptions may occur."
+  },
+  {
+    "Key": "Show-CS2Recommendations",
+    "Category": "CS2Recommendations",
+    "Title": "CS2 İçin Steam/Oyun Ayarlarını Göster",
+    "TitleEn": "Show CS2 Steam/Game Settings",
+    "Description": "CS2 için önerilen başlatma parametrelerini gösterir.",
+    "DescriptionEn": "Displays recommended launch parameters for CS2.",
+    "Warning": "",
+    "WarningEn": ""
+  },
+  {
+    "Key": "Disable-EventLogging",
+    "Category": "EventLogging",
+    "Title": "Windows Olay Günlüklerini Kapat",
+    "TitleEn": "Disable Windows Event Logging",
+    "Description": "Olay günlüklerini devre dışı bırakarak performansı artırır.",
+    "DescriptionEn": "Disables event logging to improve performance.",
+    "Warning": "Hata ayıklama zorlaşabilir.",
+    "WarningEn": "Debugging may become difficult."
+  },
+  {
+    "Key": "Manage-MemoryOptimizations",
+    "Category": "MemoryOptimizations",
+    "Title": "Bellek (RAM) Optimizasyonları",
+    "TitleEn": "Memory (RAM) Optimizations",
+    "Description": "RAM kullanımını optimize eder.",
+    "DescriptionEn": "Optimizes RAM usage.",
+    "Warning": "",
+    "WarningEn": ""
+  },
+  {
+    "Key": "Manage-StorageOptimizations",
+    "Category": "StorageOptimizations",
+    "Title": "Depolama (SSD/HDD) Optimizasyonları",
+    "TitleEn": "Storage (SSD/HDD) Optimizations",
+    "Description": "Depolama cihazlarının performansını artırır.",
+    "DescriptionEn": "Enhances storage device performance.",
+    "Warning": "",
+    "WarningEn": ""
+  },
+  {
+    "Key": "Manage-GpuOptimizations",
+    "Category": "GpuOptimizations",
+    "Title": "Ekran Kartı (GPU) Optimizasyonları",
+    "TitleEn": "GPU Optimizations",
+    "Description": "NVIDIA, AMD ve Intel GPU ayarlarını optimize eder.",
+    "DescriptionEn": "Optimizes NVIDIA, AMD, and Intel GPU settings.",
+    "Warning": "GPU ayarları oyun performansını etkileyebilir.",
+    "WarningEn": "GPU settings may affect game performance."
+  },
+  {
+    "Key": "Manage-VirtualMemory",
+    "Category": "VirtualMemory",
+    "Title": "Sanal Bellek (Pagefile) Optimizasyonu",
+    "TitleEn": "Virtual Memory (Pagefile) Optimization",
+    "Description": "Sanal bellek ayarlarını optimize eder.",
+    "DescriptionEn": "Optimizes virtual memory settings.",
+    "Warning": "Yanlış ayarlar sistem kararlılığını etkileyebilir.",
+    "WarningEn": "Incorrect settings may affect system stability."
+  },
+  {
+    "Key": "Disable-SpecificDevices",
+    "Category": "SpecificDevices",
+    "Title": "Gecikme İçin Özel Aygıtları Kapat",
+    "TitleEn": "Disable Specific Devices for Latency",
+    "Description": "Xbox Game Bar gibi aygıtları devre dışı bırakır.",
+    "DescriptionEn": "Disables devices like Xbox Game Bar.",
+    "Warning": "Bazı cihazlar kullanılamaz hale gelebilir.",
+    "WarningEn": "Some devices may become unavailable."
+  }
+]

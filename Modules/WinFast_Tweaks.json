@@ -1,0 +1,169 @@
+{
+  "TelemetryAndPrivacy": [
+    { "Action": "Set", "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager", "Name": "SubscribedContent-338393Enabled", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager", "Name": "SilentInstalledAppsEnabled", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\CloudContent", "Name": "DisableWindowsConsumerFeatures", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\System", "Name": "PublishUserActivities", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\TextInput", "Name": "AllowLinguisticDataCollection", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\DataCollection", "Name": "DoNotShowFeedbackNotifications", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\SOFTWARE\\Microsoft\\Input\\TIPC", "Name": "Enabled", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\AdvertisingInfo", "Name": "Enabled", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\AdvertisingInfo", "Name": "DisabledByGroupPolicy", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\AppCompat", "Name": "DisableInventory", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\CloudContent", "Name": "DisableTailoredExperiencesWithDiagnosticData", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\System", "Name": "EnableCdp", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\InputPersonalization", "Name": "AllowInputPersonalization", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\location", "Name": "Value", "Value": "Deny", "Type": "String" },
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\lfsvc\\Service\\Configuration", "Name": "Status", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\LocationAndSensors", "Name": "DisableLocation", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Device Metadata", "Name": "PreventDeviceMetadataFromNetwork", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\DataCollection", "Name": "AllowTelemetry", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\WMI\\Autologger\\AutoLogger-Diagtrack-Listener", "Name": "Start", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\Windows Error Reporting", "Name": "Disabled", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\Software\\Policies\\Microsoft\\Windows\\Explorer", "Name": "DisableSearchBoxSuggestions", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\BackgroundAccessApplications", "Name": "GlobalUserDisabled", "Value": 1, "Type": "DWord" }
+  ],
+  "WindowsDefender": [
+    { "Action": "RemoveValue", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", "Name": "SecurityHealth" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows Defender Security Center\\Notifications", "Name": "DisableNotifications", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows Defender", "Name": "DisableAntiSpyware", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows Defender", "Name": "DisableAntiVirus", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows Defender\\Features", "Name": "TamperProtection", "Value": 4, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender Security Center\\Systray", "Name": "HideSystray", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender", "Name": "DisableAntiSpyware", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection", "Name": "DisableRealtimeMonitoring", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender\\Spynet", "Name": "SpyNetReporting", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\System", "Name": "EnableSmartScreen", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Image File Execution Options\\smartscreen.exe", "Name": "Debugger", "Value": "C:\\Windows\\System32\\taskkill.exe", "Type": "String" }
+  ],
+  "MicrosoftEdge": [
+    { "Action": "RemoveValue", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Microsoft Edge", "Name": "NoRemove" },
+    { "Action": "RemoveValue", "Path": "HKLM:\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Microsoft Edge", "Name": "NoRemove" }
+  ],
+  "WindowsUpdates": [
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate\\AU", "Name": "NoAutoUpdate", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\WindowsUpdate\\UX\\Settings", "Name": "PauseFeatureUpdatesEndTime", "Value": "2099-11-10T22:47:13Z", "Type": "String" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\WindowsUpdate\\UX\\Settings", "Name": "PauseQualityUpdatesEndTime", "Value": "2099-11-10T22:47:13Z", "Type": "String" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate", "Name": "ExcludeWUDriversInQualityUpdate", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Speech", "Name": "AllowSpeechModelUpdate", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\WindowsStore", "Name": "AutoDownload", "Value": 2, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\StorageHealth", "Name": "AllowDiskHealthModelUpdates", "Value": 0, "Type": "DWord" }
+  ],
+  "Updates_CompleteDisable": [
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate", "Name": "DisableWindowsUpdateAccess", "Value": 1, "Type": "DWord" }
+  ],
+  "SystemPerformance": [
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Serialize", "Name": "StartupDelayInMSec", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\System\\GameConfigStore", "Name": "GameDVR_FSEBehavior", "Value": 2, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\System\\GameConfigStore", "Name": "GameDVR_Enabled", "Value": "0", "Type": "String" },
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\GraphicsDrivers", "Name": "HwSchMode", "Value": 2, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Power\\PowerThrottling", "Name": "PowerThrottlingOff", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management", "Name": "DisablePagingCombining", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\Control Panel\\Desktop", "Name": "AutoEndTasks", "Value": "1", "Type": "String" },
+    { "Action": "Set", "Path": "HKCU:\\Control Panel\\Desktop", "Name": "HungAppTimeout", "Value": "3000", "Type": "String" },
+    { "Action": "Set", "Path": "HKCU:\\Control Panel\\Desktop", "Name": "WaitToKillAppTimeout", "Value": "5000", "Type": "String" },
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control", "Name": "WaitToKillServiceTimeout", "Value": "2000", "Type": "String" },
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\PriorityControl", "Name": "Win32PrioritySeparation", "Value": 38, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\AeDebug", "Name": "Auto", "Value": "0", "Type": "String" }
+  ],
+  "MemoryLow": [
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management", "Name": "LargeSystemCache", "Value": 0, "Type": "DWord" }
+  ],
+  "MemoryHigh": [
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management", "Name": "LargeSystemCache", "Value": 1, "Type": "DWord" }
+  ],
+  "StorageHdd": [
+    { "Action": "Set", "Path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Power\\PowerSettings\\0012ee47-9041-4b5d-9b77-535fba8b1442\\dab60367-53fe-4fbc-825e-521d069d2456", "Name": "Attributes", "Value": 1, "Type": "DWord" }
+  ],
+  "StorageSsd": [
+    { "Action": "Set", "Path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\FileSystem", "Name": "NtfsDisableLastAccessUpdate", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\FileSystem", "Name": "NtfsMftZoneReservation", "Value": 2, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\FileSystem", "Name": "NtfsMemoryUsage", "Value": 2, "Type": "DWord" }
+  ],
+  "GpuNvidia": [
+    { "Action": "Set", "Path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Class\\{4d36e968-e325-11ce-bfc1-08002be10318}\\0000", "Name": "RMHdcpKeyglobZero", "Value": 1, "Type": "DWord" }
+  ],
+  "GpuAmd": [
+    { "Action": "Set", "Path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Class\\{4d36e968-e325-11ce-bfc1-08002be10318}\\0000\\UMD", "Name": "Main3D_DEF", "Value": "1", "Type": "String" },
+    { "Action": "Set", "Path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Class\\{4d36e968-e325-11ce-bfc1-08002be10318}\\0000\\UMD", "Name": "Main3D", "Value": [49,0,0,0], "Type": "Binary" },
+    { "Action": "Set", "Path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Class\\{4d36e968-e325-11ce-bfc1-08002be10318}\\0000\\UMD", "Name": "FlipQueueSize", "Value": [49,0,0,0], "Type": "Binary" },
+    { "Action": "Set", "Path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Class\\{4d36e968-e325-11ce-bfc1-08002be10318}\\0000\\UMD", "Name": "ShaderCache", "Value": [50,0,0,0], "Type": "Binary" },
+    { "Action": "Set", "Path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Class\\{4d36e968-e325-11ce-bfc1-08002be10318}\\0000", "Name": "StutterMode", "Value": 0, "Type": "DWord" }
+  ],
+  "GpuIntel": [
+    { "Action": "Set", "Path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Class\\{4d36e968-e325-11ce-bfc1-08002be10318}\\0000", "Name": "Disable_OverlayDSQualityEnhancement", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Class\\{4d36e968-e325-11ce-bfc1-08002be10318}\\0000", "Name": "IncreaseFixedSegment", "Value": 1, "Type": "DWord" }
+  ],
+  "ExplorerSettings": [
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Explorer", "Name": "HideRecentlyAddedApps", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced", "Name": "Start_TrackProgs", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Feeds", "Name": "ShellFeedsTaskbarViewMode", "Value": 2, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced", "Name": "ShowTaskViewButton", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\FileSystem", "Name": "LongPathsEnabled", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer", "Name": "Link", "Value": [0,0,0,0], "Type": "Binary" },
+    { "Action": "Set", "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize", "Name": "EnableTransparency", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced", "Name": "LaunchTo", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced", "Name": "HideFileExt", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced", "Name": "Hidden", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\Control Panel\\Desktop\\WindowMetrics", "Name": "MinAnimate", "Value": "0", "Type": "String" },
+    { "Action": "Set", "Path": "HKCU:\\Software\\Classes\\CLSID\\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\\InprocServer32", "Name": "(Default)", "Value": "", "Type": "String" }
+  ],
+  "AdvancedNetworkTweaks": [
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters", "Name": "EnablePMTUDiscovery", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters", "Name": "EnableDeadGWDetect", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters", "Name": "KeepAliveTime", "Value": 300000, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\ServiceProvider", "Name": "DnsPriority", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters", "Name": "TcpTimedWaitDelay", "Value": 30, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Psched", "Name": "NonBestEffortLimit", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters", "Name": "MaxCacheEntryTtlLimit", "Value": 64000, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters", "Name": "DefaultTTL", "Value": 100, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters", "Name": "MaxUserPort", "Value": 65534, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management", "Name": "DisablePagingExecutive", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Ndu", "Name": "Start", "Value": 4, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer", "Name": "AlwaysUnloadDll", "Value": 1, "Type": "DWord" }
+  ],
+  "SearchSettings": [
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Windows Search", "Name": "AllowIndexingEncryptedStoresOrItems", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Windows Search", "Name": "AllowCloudSearch", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Search", "Name": "BingSearchEnabled", "Value": 0, "Type": "DWord" }
+  ],
+  "Input_Optimizations": [
+    { "Action": "Set", "Path": "HKCU:\\Control Panel\\Mouse", "Name": "MouseSpeed", "Value": "0", "Type": "String" },
+    { "Action": "Set", "Path": "HKCU:\\Control Panel\\Keyboard", "Name": "KeyboardDelay", "Value": "0", "Type": "String" }
+  ],
+  "MMCSS_Profiles": [
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Multimedia\\SystemProfile\\Tasks\\Games", "Name": "GPU Priority", "Value": 8, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Multimedia\\SystemProfile\\Tasks\\Games", "Name": "Priority", "Value": 2, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Multimedia\\SystemProfile\\Tasks\\Games", "Name": "Scheduling Category", "Value": "High", "Type": "String" }
+  ],
+  "GameMode": [
+    { "Action": "Set", "Path": "HKCU:\\Software\\Microsoft\\GameBar", "Name": "GameDVR_Enabled", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\Software\\Microsoft\\GameBar", "Name": "ShowGameModeNotifications", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\Software\\Microsoft\\GameBar", "Name": "AutoGameModeEnabled", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\Software\\Microsoft\\GameBar", "Name": "ShowStartupPanel", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\Software\\Microsoft\\GameBar", "Name": "UseNexusForGameBarEnabled", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\WindowsRuntime\\ActivatableClassId\\Windows.Gaming.GameBar.PresenceServer.Internal.PresenceWriter", "Name": "ActivationType", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\System\\GameConfigStore", "Name": "GameDVR_FSEBehavior", "Value": 2, "Type": "DWord" }
+  ],
+  "CoreIsolation": [
+    { "Action": "Set", "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\DeviceGuard\\Scenarios\\HypervisorEnforcedCodeIntegrity", "Name": "Enabled", "Value": 0, "Type": "DWord" }
+  ],
+  "BackgroundApps": [
+    { "Action": "Set", "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\BackgroundAccessApplications", "Name": "GlobalUserDisabled", "Value": 1, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Search", "Name": "BackgroundAppGlobalToggle", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Search", "Name": "AllowBackgroundActivityLaunch", "Value": 0, "Type": "DWord" }
+  ],
+  "MPO_Optimization": [
+    { "Action": "Set", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\Dwm", "Name": "OverlayTestMode", "Value": 5, "Type": "DWord" }
+  ],
+  "VisualEffects": [
+    { "Action": "Set", "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects", "Name": "VisualFxSetting", "Value": 2, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\Control Panel\\Desktop", "Name": "UserPreferencesMask", "Value": [144,18,2,128], "Type": "Binary" },
+    { "Action": "Set", "Path": "HKCU:\\Software\\Microsoft\\Windows\\DWM", "Name": "EnableAeroPeek", "Value": 0, "Type": "DWord" },
+    { "Action": "Set", "Path": "HKCU:\\Software\\Microsoft\\Windows\\DWM", "Name": "AlwaysHolographic", "Value": 0, "Type": "DWord" }
+  ],
+  "LegacyComponents_Remove": [
+    { "Action": "RemoveKey", "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows Photo Viewer" },
+    { "Action": "RemoveKey", "Path": "HKLM:\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows Photo Viewer" }
+  ]
+}

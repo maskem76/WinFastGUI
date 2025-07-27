@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AccessDeniedTryingNSudo" xml:space="preserve"><value>Erişim reddedildi, NSudo ile deneniyor:</value></data>
+  <data name="AddingDriveToScan" xml:space="preserve"><value>Taranacak sürücü eklendi:</value></data>
+  <data name="AdvancedProfile" xml:space="preserve"><value>Gelişmiş Profil</value></data>
+  <data name="AdvancedProfileTooltip" xml:space="preserve"><value>Kategorilere özel gelişmiş profil oluştur</value></data>
+  <data name="AffinityManager" xml:space="preserve"><value>Affinity Yöneticisi</value></data>
+  <data name="AffinityManagerTitle" xml:space="preserve"><value>Çekirdek Atama Yöneticisi</value></data>
+  <data name="AllCategories" xml:space="preserve"><value>Tümü</value></data>
+  <data name="AppManagement" xml:space="preserve"><value>Uygulama Yönetimi</value></data>
+  <data name="ApplicationInstaller" xml:space="preserve"><value>Uygulama Yükleyici</value></data>
+  <data name="ApplicationRemover" xml:space="preserve"><value>Uygulama Kaldırıcı</value></data>
+  <data name="ApplicationRestarted" xml:space="preserve"><value>Uygulama yeniden başlatıldı.</value></data>
+  <data name="ApplicationStarted" xml:space="preserve"><value>Uygulama başlatıldı.</value></data>
+  <data name="AssignAll" xml:space="preserve"><value>Tümüne Ata</value></data>
+  <data name="AssignAllTooltip" xml:space="preserve"><value>Tüm cihazlara seçili çekirdekleri ata</value></data>
+  <data name="AssignmentLogs" xml:space="preserve"><value>Atama Logları</value></data>
+  <data name="AutoAssign" xml:space="preserve"><value>Otomatik Ata</value></data>
+  <data name="AutoAssignTooltip" xml:space="preserve"><value>Cihazlara otomatik çekirdek ataması yap</value></data>
+  <data name="Backup" xml:space="preserve"><value>Yedekleme</value></data>
+  <data name="BackupBloatware" xml:space="preserve"><value>Bloatware Yedekle</value></data>
+  <data name="BackupRegistry" xml:space="preserve"><value>Registry Yedekle (Masaüstü)</value></data>
+  <data name="Bloatware" xml:space="preserve"><value>Bloatware</value></data>
+  <data name="CancellationRequested" xml:space="preserve"><value>İptal isteği gönderildi...</value></data>
+  <data name="ClassicProfile" xml:space="preserve"><value>Klasik Profil</value></data>
+  <data name="ClassicProfileTooltip" xml:space="preserve"><value>Tüm cihazlar için varsayılan profil oluştur</value></data>
+  <data name="CleaningCanceled" xml:space="preserve"><value>Temizlik iptal edildi.</value></data>
+  <data name="CleaningCompleted" xml:space="preserve"><value>Temizlik tamamlandı!</value></data>
+  <data name="CleaningEnded" xml:space="preserve"><value>Temizlik işlemi sona erdi.</value></data>
+  <data name="CleaningStarted" xml:space="preserve"><value>Temizlik işlemi başlatıldı.</value></data>
+  <data name="CleaningStartedWithMode" xml:space="preserve"><value>{0} modu ile temizlik işlemi başlatıldı.</value></data>
+  <data name="ClearingRecycleBin" xml:space="preserve"><value>Geri Dönüşüm Kutusu boşaltılıyor...</value></data>
+  <data name="ClearingShadowCopies" xml:space="preserve"><value>Gölge kopyalar temizleniyor...</value></data>
+  <data name="ClearLogs" xml:space="preserve"><value>Logları Temizle</value></data>
+  <data name="ClearLogsTooltip" xml:space="preserve"><value>Atama loglarını temizle</value></data>
+  <data name="CreateRestorePoint" xml:space="preserve"><value>Sistem Geri Yükleme Noktası</value></data>
+  <data name="DeepClean" xml:space="preserve"><value>Derin Temizlik</value></data>
+  <data name="DeviceDetails" xml:space="preserve"><value>Aygıt Detayları</value></data>
+  <data name="DirectoryScanError" xml:space="preserve"><value>Dizin tarama hatası:</value></data>
+  <data name="EditProfile" xml:space="preserve"><value>Profili Düzenle</value></data>
+  <data name="EditProfileTooltip" xml:space="preserve"><value>Otomatik atama profillerini düzenle</value></data>
+  <data name="Error" xml:space="preserve"><value>Hata</value></data>
+  <data name="ErrorDeletingFile" xml:space="preserve"><value>HATA: Silinemedi:</value></data>
+  <data name="ErrorNSudoNotFound" xml:space="preserve"><value>Hata: NSudo.exe bulunamadı!</value></data>
+  <data name="ErrorOccurred" xml:space="preserve"><value>Bir hata oluştu!</value></data>
+  <data name="Export" xml:space="preserve"><value>Dışa Aktar</value></data>
+  <data name="ExportTooltip" xml:space="preserve"><value>Mevcut atamaları JSON dosyasına dışa aktar</value></data>
+  <data name="ExtendedClean" xml:space="preserve"><value>Genişletilmiş Temizlik</value></data>
+  <data name="FileDeleted" xml:space="preserve"><value>Silindi:</value></data>
+  <data name="FileDeletedAfterKill" xml:space="preserve"><value>Proses kapatıldıktan sonra silindi:</value></data>
+  <data name="FileListingError" xml:space="preserve"><value>Dosya listeleme hatası:</value></data>
+  <data name="FilesDeleted" xml:space="preserve"><value>dosya silindi</value></data>
+  <data name="ForcedDeleteWithNSudo" xml:space="preserve"><value>NSudo ile zorla silindi:</value></data>
+  <data name="ForcingDeleteWithNSudo" xml:space="preserve"><value>NSudo ile zorla siliniyor:</value></data>
+  <data name="GettingDeepCleanPaths" xml:space="preserve"><value>Derin temizlikte C: ve D: sürücüleri tam taranacak.</value></data>
+  <data name="GettingQuickCleanPaths" xml:space="preserve"><value>Hızlı temizlik yolları alınıyor.</value></data>
+  <data name="HeaderHome" xml:space="preserve"><value>Ana Sayfa</value></data>
+  <data name="Home" xml:space="preserve"><value>Ana Sayfa</value></data>
+  <data name="HuntStubborn" xml:space="preserve"><value>İnatçı Avla</value></data>
+  <data name="ImageCreator" xml:space="preserve"><value>İmaj &amp; ISO Oluşturucu</value></data>
+  <data name="Import" xml:space="preserve"><value>İçe Aktar</value></data>
+  <data name="ImportTooltip" xml:space="preserve"><value>JSON dosyasından atamaları içe aktar</value></data>
+  <data name="InstallableApps" xml:space="preserve"><value>Yüklenebilir Uygulamalar</value></data>
+  <data name="InstalledApps" xml:space="preserve"><value>Kurulu Uygulamalar</value></data>
+  <data name="InstallSelected" xml:space="preserve"><value>Seçileni Yükle</value></data>
+  <data name="IrqTool" xml:space="preserve"><value>IRQ Aracı</value></data>
+  <data name="KillingLockedProcess" xml:space="preserve"><value>Kilitli proses sonlandırılıyor:</value></data>
+  <data name="LanguageChange_Title" xml:space="preserve"><value>Dil Değişikliği</value></data>
+  <data name="LanguageChanged_RestartMessage" xml:space="preserve"><value>Dil değiştirildi. Değişikliklerin etkili olması için uygulama yeniden başlatılacak.</value></data>
+  <data name="NsudoCommandError" xml:space="preserve"><value>NSudo komut hatası (Kod:</value></data>
+  <data name="NsudoError" xml:space="preserve"><value>NSudo Hatası:</value></data>
+  <data name="OperationCanceled" xml:space="preserve"><value>İşlem iptal edildi.</value></data>
+  <data name="OperationCompleted" xml:space="preserve"><value>İşlem tamamlandı.</value></data>
+  <data name="OperationStatusReady" xml:space="preserve"><value>İşlem Durumu: Hazır</value></data>
+  <data name="OptimizationManager" xml:space="preserve"><value>Optimizasyon Yöneticisi</value></data>
+  <data name="OrEnterProgram" xml:space="preserve"><value>Veya buraya program adı girin...</value></data>
+  <data name="ProcessKilled" xml:space="preserve"><value>başarıyla sonlandırıldı.</value></data>
+  <data name="QuickClean" xml:space="preserve"><value>Hızlı Genel Temizliği (Önerilen)</value></data>
+  <data name="RefreshList" xml:space="preserve"><value>Listeyi Yenile</value></data>
+  <data name="RegistryBackupRestore" xml:space="preserve"><value>Registry Yedekleme &amp; Geri Yükleme</value></data>
+  <data name="Restart" xml:space="preserve"><value>Yeniden Başlat</value></data>
+  <data name="RestoreBloatware" xml:space="preserve"><value>Bloatware Geri Yükle</value></data>
+  <data name="RestoreRegistry" xml:space="preserve"><value>Registry Geri Yükle</value></data>
+  <data name="RestoreStubborn" xml:space="preserve"><value>İnatçıyı Geri Yükle</value></data>
+  <data name="RunningExtendedTools" xml:space="preserve"><value>Genişletilmiş sistem araçları çalıştırılıyor.</value></data>
+  <data name="Save" xml:space="preserve"><value>Kaydet</value></data>
+  <data name="SaveTooltip" xml:space="preserve"><value>Seçili cihazlara çekirdek atamalarını kaydet</value></data>
+  <data name="ScanningDirectory" xml:space="preserve"><value>Dizin taranıyor:</value></data>
+  <data name="ScanningDrives" xml:space="preserve"><value>Taranacak sürücüler:</value></data>
+  <data name="ScanningPath" xml:space="preserve"><value>Taranıyor: {0}</value></data>
+  <data name="ScanningStarted" xml:space="preserve"><value>Taramaya başlanıyor:</value></data>
+  <data name="SelectOrEnterProgram" xml:space="preserve"><value>Hazır Programı Seç / Manuel Gir:</value></data>
+  <data name="ServiceManagement" xml:space="preserve"><value>Servis Yönetimi</value></data>
+  <data name="SkippingCriticalDirectory" xml:space="preserve"><value>Kritik klasör atlanıyor:</value></data>
+  <data name="SkippingCriticalProcess" xml:space="preserve"><value>Korunan proses atlanıyor:</value></data>
+  <data name="SkippingCriticalSubdirectory" xml:space="preserve"><value>Kritik alt klasör atlanıyor:</value></data>
+  <data name="SkippingProtectedFile" xml:space="preserve"><value>Korunan dosya atlanıyor:</value></data>
+  <data name="SkippingSelfProcess" xml:space="preserve"><value>Kendi prosesini sonlandırma atlandı:</value></data>
+  <data name="Start" xml:space="preserve"><value>Başlat</value></data>
+  <data name="StartingDISMCleanup" xml:space="preserve"><value>DISM bileşen temizliği başlatılıyor...</value></data>
+  <data name="StatusReady" xml:space="preserve"><value>Hazır</value></data>
+  <data name="Stop" xml:space="preserve"><value>Durdur</value></data>
+  <data name="StubbornProgramHunter" xml:space="preserve"><value>İnatçı Program Avcısı</value></data>
+  <data name="Success" xml:space="preserve"><value>Başarılı</value></data>
+  <data name="SystemCleanup" xml:space="preserve"><value>Sistem Temizliği</value></data>
+  <data name="TotalDeletedFiles" xml:space="preserve"><value>Toplam</value></data>
+  <data name="Undo" xml:space="preserve"><value>Geri Al</value></data>
+  <data name="UndoTooltip" xml:space="preserve"><value>Son işlemi geri al</value></data>
+  <data name="UninstallSelected" xml:space="preserve"><value>Seçileni Kaldır</value></data>
+  <data name="UpdateManager" xml:space="preserve"><value>Windows Güncellemesi</value></data>
+  <data name="WarningNoDrivesFound" xml:space="preserve"><value>UYARI: C: veya D: sürücüsü bulunamadı veya erişilebilir değil.</value></data>
+  <data name="WarningRunAsAdmin" xml:space="preserve"><value>UYARI: Lütfen yönetici olarak çalıştırın!</value></data>
+  <data name="WinfastOptimizasyonAraciV131" xml:space="preserve"><value>WinFast Optimizasyon Aracı v13.1</value></data>
+  <data name="WithMode" xml:space="preserve"><value>modu ile temizlik işlemi başlatıldı.</value></data>
+  <data name="BackupRegistryMessage" xml:space="preserve"><value>Kayıt defteri yedeği alınıyor...</value></data>
+  <data name="RestoreRegistryMessage" xml:space="preserve"><value>Kayıt defteri geri yükleniyor...</value></data>
+  <data name="ErrorMessage" xml:space="preserve"><value>Yedekleme sırasında hata: </value></data>
+  <data name="SelectRegistryBackup" xml:space="preserve"><value>Kayıt Defteri Yedeği Başlatılıyor...</value></data>
+  <data name="StartingRegistryBackup" xml:space="preserve"><value>Kayıt defteri yedeği alınıyor...</value></data>
+<data name="RegistryBackupMessage" xml:space="preserve"><value>Kayıt defteri yedeği: </value></data>
+<data name="UserRegistryBackupMessage" xml:space="preserve"><value>Kullanıcı kayıt defteri yedeği: </value></data>
+<data name="BackupFailed" xml:space="preserve"><value>Yedekleme başarısız oldu! (Kod: </value></data>
+<data name="BackupError" xml:space="preserve"><value>Yedekleme sırasında hata: </value></data>
+<data name="RegistryRestored" xml:space="preserve"><value>Kayıt defteri geri yüklendi.</value></data>
+<data name="RestoreFailed" xml:space="preserve"><value>Geri yükleme başarısız oldu! (Kod: </value></data>
+<data name="RestoreProcessError" xml:space="preserve"><value>Hata: Geri yükleme işlemi başlatılamadı.</value></data>
+<data name="RestoreError" xml:space="preserve"><value>Geri yükleme sırasında hata: </value></data>
+<data name="BackupProcessError" xml:space="preserve"><value>Yedekleme işlemi sırasında bir hata oluştu!</value></data>
+<data name="BackupBloatwareMessage" xml:space="preserve"><value>Bloatware yedeği alınıyor...</value></data>
+<data name="BloatwareBackupCompleted" xml:space="preserve"><value>Bloatware yedeği tamamlandı.</value></data>
+<data name="CreatingSystemRestorePoint" xml:space="preserve"><value>Sistem geri yükleme noktası oluşturuluyor...</value></data>
+<data name="SystemRestorePointCreated" xml:space="preserve"><value>Sistem geri yükleme noktası oluşturuldu.</value></data>
+<data name="DismPlusPlusTitle" xml:space="preserve"><value>İmaj &amp; ISO Yedekleme Paneli</value></data>
+<data name="Step1WimTitle" xml:space="preserve"><value>1. Adım: Sistem İmajı Oluştur (.wim)</value></data>
+<data name="TakeSnapshot" xml:space="preserve"><value>Snapshot AL</value></data>
+<data name="DeleteSnapshot" xml:space="preserve"><value>Snapshot SİL</value></data>
+<data name="CaptureWim" xml:space="preserve"><value>İmaj Al (WIM)</value></data>
+<data name="BrowseWim" xml:space="preserve"><value>...</value></data>
+<data name="Step2IsoTitle" xml:space="preserve"><value>2. Adım: İmajdan Bootable ISO Oluştur</value></data>
+<data name="SelectImageTemplate" xml:space="preserve"><value>İmaj Şablonu Seç</value></data>
+<data name="BrowseUserImage" xml:space="preserve"><value>Kullanılacak İmajı Seç (.wim)</value></data>
+<data name="CreateIsoFromImage" xml:space="preserve"><value>Seçilenden ISO Yap</value></data>
+<data name="ExtraToolsTitle" xml:space="preserve"><value>Ekstra Araçlar</value></data>
+<data name="RefreshUsbList" xml:space="preserve"><value>USB'leri Yenile</value></data>
+<data name="BrowseIso" xml:space="preserve"><value>ISO Seç</value></data>
+<data name="WriteIsoToUsb" xml:space="preserve"><value>ISO'yu USB'ye Yazdır</value></data>
+<data name="StatusCreatingSnapshot" xml:space="preserve"><value>Snapshot alınıyor...</value></data>
+<data name="StatusDeletingSnapshots" xml:space="preserve"><value>Snapshot'lar siliniyor...</value></data>
+<data name="StatusCreatingWim" xml:space="preserve"><value>WIM İmajı Oluşturuluyor...</value></data>
+<data name="StatusCreatingIso" xml:space="preserve"><value>ISO oluşturuluyor...</value></data>
+<data name="StatusWritingIsoToUsb" xml:space="preserve"><value>ISO USB'ye yazılıyor...</value></data>
+<data name="SnapshotReady" xml:space="preserve"><value>Snapshot hazır!</value></data>
+<data name="AllSnapshotsDeleted" xml:space="preserve"><value>Tüm Snapshot'lar silindi.</value></data>
+<data name="IsoReady" xml:space="preserve"><value>ISO hazır!</value></data>
+<data name="IsoWrittenToUsb" xml:space="preserve"><value>ISO USB'ye yazıldı!</value></data>
+<data name="VssSnapshotCreating" xml:space="preserve"><value>VSS anlık görüntüsü oluşturuluyor...</value></data>
+<data name="SnapshotTakenSuccessfully" xml:space="preserve"><value>Snapshot başarıyla alındı: {0}</value></data>
+<data name="SnapshotFailed" xml:space="preserve"><value>Snapshot alınamadı</value></data>
+<data name="SelectWimSavePath" xml:space="preserve"><value>Kaydedilecek WIM Dosyasını Seçin</value></data>
+<data name="PleaseTakeSnapshotFirst" xml:space="preserve"><value>Lütfen önce bir snapshot alın.</value></data>
+<data name="PleaseSelectWimTarget" xml:space="preserve"><value>Lütfen kaydedilecek .wim dosyası için bir hedef seçin.</value></data>
+<data name="WimBackupStarted" xml:space="preserve"><value>===== WIM YEDEKLEME İŞLEMİ BAŞLADI =====</value></data>
+<data name="WimCaptureCompleted" xml:space="preserve"><value>İmaj alma başarıyla tamamlandı!</value></data>
+<data name="PermissionsSet" xml:space="preserve"><value>Dosya izinleri ayarlandı.</value></data>
+<data name="PermissionsWarning" xml:space="preserve"><value>UYARI: İzinler ayarlanamadı.</value></data>
+<data name="WimAndPermissionsCompleted" xml:space="preserve"><value>İmaj alma ve izinleri düzeltme işlemi tamamlandı!</value></data>
+<data name="WimBackupError" xml:space="preserve"><value>WIM yedeği oluşturulurken hata oluştu</value></data>
+<data name="SelectUserImage" xml:space="preserve"><value>Kullanılacak İmaj Dosyasını Seçin (.wim, .esd)</value></data>
+<data name="SelectValidWimError" xml:space="preserve"><value>Lütfen geçerli bir .wim dosyası seçin!</value></data>
+<data name="SelectIsoTemplateError" xml:space="preserve"><value>Lütfen bir ISO şablonu seçin!</value></data>
+<data name="SaveIsoDialogTitle" xml:space="preserve"><value>Oluşacak ISO dosyasını kaydet</value></data>
+<data name="TemplateNotSpecified" xml:space="preserve"><value>Şablon dosyası belirtilmedi.</value></data>
+<data name="IsoPermissionsSet" xml:space="preserve"><value>ISO dosyası izinleri ayarlandı.</value></data>
+<data name="IsoPermissionsWarning" xml:space="preserve"><value>UYARI: ISO dosyası izinleri ayarlanamadı.</value></data>
+<data name="IsoCreatedSuccessfully" xml:space="preserve"><value>ISO başarıyla oluşturuldu: {0}</value></data>
+<data name="IsoCreationFailed" xml:space="preserve"><value>ISO oluşturma başarısız oldu.</value></data>
+<data name="IsoCreationError" xml:space="preserve"><value>ISO oluşturulurken hata</value></data>
+<data name="SelectIsoTitle" xml:space="preserve"><value>ISO Dosyası Seç</value></data>
+<data name="CreateOrSelectIsoError" xml:space="preserve"><value>Lütfen önce bir ISO dosyası oluşturun veya seçin!</value></data>
+<data name="SelectUsbError" xml:space="preserve"><value>Lütfen bir USB sürücü seçin!</value></data>
+<data name="InvalidDeviceIdError" xml:space="preserve"><value>Seçilen USB sürücünün DeviceID’si geçersiz!</value></data>
+<data name="NoDriveLetterError" xml:space="preserve"><value>Seçilen USB sürücünün sürücü harfi bulunamadı!</value></data>
+<data name="UsbFormatWarning" xml:space="preserve"><value>USB sürücü formatlanacak ve TÜM veriler silinecek!\nDevam etmek istiyor musunuz?</value></data>
+<data name="Warning" xml:space="preserve"><value>Uyarı</value></data>
+<data name="CopyingProgress" xml:space="preserve"><value>Kopyalanıyor: %{0}</value></data>
+<data name="IsoWrittenMessage" xml:space="preserve"><value>ISO USB'ye yazıldı!</value></data>
+<data name="IsoToUsbError" xml:space="preserve"><value>ISO USB'ye yazılırken hata</value></data>
+<data name="NoUsbDrivesFound" xml:space="preserve"><value>Hiçbir USB sürücü bulunamadı veya sürücü harfi atanmamış.</value></data>
+<data name="UsbListError" xml:space="preserve"><value>USB sürücüler listelenirken hata</value></data>
+<data name="SnapshotCreationFailedWmiNull" xml:space="preserve"><value>Snapshot oluşturma başarısız! WMI null döndü.</value></data>
+<data name="SnapshotCreationFailedWmiCode" xml:space="preserve"><value>Snapshot oluşturma başarısız! WMI Kodu: {0}</value></data>
+<data name="NoValidSnapshotId" xml:space="preserve"><value>Geçerli bir Snapshot ID alınamadı.</value></data>
+<data name="NoSnapshotDeviceObject" xml:space="preserve"><value>Snapshot DeviceObject bulunamadı.</value></data>
+<data name="NoDeviceObject" xml:space="preserve"><value>DeviceObject bulunamadı.</value></data>
+<data name="MountProcessFailed" xml:space="preserve"><value>Mount işlemi için process başlatılamadı.</value></data>
+<data name="MountFailedError" xml:space="preserve"><value>Mount işlemi başarısız! Hata: {0}</value></data>
+<data name="DismProcessFailed" xml:space="preserve"><value>DISM işlemi başlatılamadı.</value></data>
+<data name="ErrorPrefix" xml:space="preserve"><value>HATA: {0}</value></data>
+<data name="DismFailedCode" xml:space="preserve"><value>DISM işlemi başarısız oldu! Çıkış Kodu: {0}.</value></data>
+<data name="PowerShellProcessFailed" xml:space="preserve"><value>PowerShell işlemi başlatılamadı.</value></data>
+<data name="TakeownProcessFailed" xml:space="preserve"><value>takeown işlemi başlatılamadı.</value></data>
+<data name="IcaclsProcessFailed" xml:space="preserve"><value>icacls işlemi başlatılamadı.</value></data>
+<data name="FixPermissionsError" xml:space="preserve"><value>[FixFilePermissionsAsync HATA] {0}</value></data>
+<data name="CleanupStarted" xml:space="preserve"><value>Temizlik işlemi başlatılıyor...</value></data>
+<data name="TempMountRemoved" xml:space="preserve"><value>Geçici klasör bağlantısı kaldırıldı.</value></data>
+<data name="UnmountError" xml:space="preserve"><value>Unmount hatası: {0}</value></data>
+<data name="VssDeleteError" xml:space="preserve"><value>VSS silme hatası: {0}</value></data>
+<data name="WimscriptWarning" xml:space="preserve"><value>UYARI: wimscript.ini bulunamadı. Varsayılan liste oluşturuluyor...</value></data>
+<data name="WimscriptCreationError" xml:space="preserve"><value>HATA: wimscript.ini oluşturulamadı: {0}</value></data>
+<data name="ProgressFormat" xml:space="preserve"><value>İŞLEM: {0}% complete</value></data>
+<data name="ProgressDisplay" xml:space="preserve"><value>İŞLEM: %{0}</value></data>
+<data name="StatusError" xml:space="preserve"><value>Durum: Hata!</value></data>
+<data name="CriticalError" xml:space="preserve"><value>Kritik Hata</value></data>
+<data name="CriticalErrorMessage" xml:space="preserve"><value>{0}:\n\n{1}</value></data>
+<data name="OptimizationManagerStarted" xml:space="preserve"><value>OptimizationManagerControl başlatıldı.</value></data>
+<data name="LoadingOptimizationList" xml:space="preserve"><value>OptimizationList.json yükleniyor: {0}</value></data>
+<data name="OptimizationFileNotFound" xml:space="preserve"><value>Optimizasyon dosyası bulunamadı: {0}</value></data>
+<data name="OptimizationsLoaded" xml:space="preserve"><value>{0} optimizasyon ayarı yüklendi.</value></data>
+<data name="OptimizationLoadError" xml:space="preserve"><value>Optimizasyon ayarları yüklenirken hata oluştu: {0}</value></data>
+<data name="SelectAtLeastOneOptimization" xml:space="preserve"><value>Lütfen en az bir optimizasyon seçin.</value></data>
+<data name="ExecutorNotFound" xml:space="preserve"><value>Executor.ps1 bulunamadı!</value></data>
+<data name="RunningCommand" xml:space="preserve"><value>{0} komutu çalıştırılıyor...</value></data>
+<data name="NsudoNotFound" xml:space="preserve"><value>NSudoLC.exe bulunamadı.</value></data>
+<data name="CommandCompleted" xml:space="preserve"><value>{0} tamamlandı: {1}</value></data>
+<data name="CommandFailed" xml:space="preserve"><value>{0} hatayla tamamlandı: {1} (Çıktı: {2})</value></data>
+<data name="CancelClicked" xml:space="preserve"><value>İptal butonuna tıklandı.</value></data>
+<data name="NvidiaNibClicked" xml:space="preserve"><value>Nvidia NIB Aktar butonuna tıklandı.</value></data>
+<data name="NvidiaInspectorNotFound" xml:space="preserve"><value>nvidiaProfileInspector.exe bulunamadı!</value></data>
+<data name="NvidiaProfileImported" xml:space="preserve"><value>Nvidia profili başarıyla içe aktarıldı.</value></data>
+<data name="PowerProfileClicked" xml:space="preserve"><value>Güç Profilini Yükle butonuna tıklandı.</value></data>
+<data name="PowerProfileLoaded" xml:space="preserve"><value>Güç profili başarıyla yüklendi.</value></data>
+<data name="CoreAssignmentClicked" xml:space="preserve"><value>Çekirdek Atama butonuna tıklandı.</value></data>
+<data name="EnterMask" xml:space="preserve"><value>Çekirdek maskesi:</value></data>
+<data name="CoreAssignmentSuccess" xml:space="preserve"><value>Çekirdek ataması yapıldı.</value></data>
+<data name="CoreAssignmentError" xml:space="preserve"><value>Çekirdek ataması hatası: {0}</value></data>
+<data name="LogFileReadError" xml:space="preserve"><value>Log dosyası okunamadı: {0}</value></data>
+<data name="OptimizationCompleted" xml:space="preserve"><value>Optimizasyon tamamlandı: </value></data>
+<data name="Information" xml:space="preserve"><value>Bilgi</value></data>
+
+<data name="OptimizationManagerTitle" xml:space="preserve"><value>Optimizasyon Yöneticisi</value></data>
+<data name="SelectAll" xml:space="preserve"><value>Tümünü Seç</value></data>
+<data name="SelectSafeOptions" xml:space="preserve"><value>Güvenli Seçenekler</value></data>
+<data name="ClearSelection" xml:space="preserve"><value>Hiçbirini Seçme</value></data>
+<data name="StatusOptimizing" xml:space="preserve"><value>🟡 Optimizasyon Başlatıldı...</value></data>
+<data name="StatusCompleted" xml:space="preserve"><value>🟩 Tüm işlemler tamamlandı.</value></data>
+<data name="ImportNvidiaNib" xml:space="preserve"><value>Nvidia NIB Aktar</value></data>
+<data name="OpenPowerProfile" xml:space="preserve"><value>Güç Profili Yükle</value></data>
+<data name="OpenCoreAssignment" xml:space="preserve"><value>Çekirdek Atama</value></data>
+<data name="RunSelectedTweaks" xml:space="preserve"><value>Seçilenleri Başlat</value></data>
+<data name="Apply" xml:space="preserve"><value>Uygula</value></data>
+<data name="Cancel" xml:space="preserve"><value>İptal</value></data>
+<data name="NvidiaProfileSelect" xml:space="preserve"><value>Nvidia Profilini Seç</value></data>
+<data name="PowerProfileSelect" xml:space="preserve"><value>Güç Profilini Seç</value></data>
+<data name="AppForCoreAssignment" xml:space="preserve"><value>Çekirdek Ataması Yapılacak Uygulama</value></data>
+<data name="InvalidMask" xml:space="preserve"><value>Geçersiz maskesi.</value></data>
+<data name="NamePlaceholder" xml:space="preserve"><value>Ad: -</value></data>
+<data name="CategoryPlaceholder" xml:space="preserve"><value>Kategori: -</value></data>
+<data name="MaskPlaceholder" xml:space="preserve"><value>Mask: -</value></data>
+<data name="SelectedDevices" xml:space="preserve"><value>Seçilen Cihazlar:</value></data>
+<data name="CategoryMultipleDevices" xml:space="preserve"><value>Kategori: Birden fazla cihaz</value></data>
+<data name="NoDeviceSelected" xml:space="preserve"><value>Cihaz seçili değil</value></data>
+<data name="PleaseSelectAtLeastOneDevice" xml:space="preserve"><value>Lütfen en az bir cihaz seçin</value></data>
+<data name="DeviceUpdated" xml:space="preserve"><value>Cihaz güncellendi: {0} Mask={1}</value></data>
+<data name="UndoSnapshotSaved" xml:space="preserve"><value>Geri alma anlık görüntüsü kaydedildi: {0} cihaz</value></data>
+<data name="NoActionToUndo" xml:space="preserve"><value>Geri alınacak işlem yok</value></data>
+<data name="LastActionUndone" xml:space="preserve"><value>Son işlem geri alındı</value></data>
+<data name="AssignedToAll" xml:space="preserve"><value>Tümüne atama: {0} Mask={1}</value></data>
+<data name="SelectAtLeastOneCore" xml:space="preserve"><value>En az bir çekirdek seçin</value></data>
+<data name="CoreAssignmentsAppliedToAll" xml:space="preserve"><value>Tüm cihazlara çekirdek ataması yapıldı</value></data>
+<data name="AutoMaskAssignedToAllDevices" xml:space="preserve"><value>Tüm cihazlara otomatik mask atandı</value></data>
+<data name="AutoCoreAssignmentAppliedToAll" xml:space="preserve"><value>Tüm cihazlara otomatik çekirdek ataması yapıldı</value></data>
+<data name="ProfileExportedTo" xml:space="preserve"><value>Profil {0} olarak dışa aktarıldı</value></data>
+<data name="ProfileImported" xml:space="preserve"><value>Profil içe aktarıldı: {0} Mask={1}</value></data>
+<data name="ProfileImportFailedInvalidFile" xml:space="preserve"><value>Profil içe aktarılamadı: Geçersiz dosya</value></data>
+<data name="ProfileImportedSuccessfully" xml:space="preserve"><value>Profil başarıyla içe aktarıldı</value></data>
+<data name="ProfileLoadFailed" xml:space="preserve"><value>Profil yüklenemedi: {0}</value></data>
+<data name="EnterCoreCountFor" xml:space="preserve"><value>{0} için çekirdek sayısı giriniz (örn: 3)</value></data>
+<data name="ProfileUpdated" xml:space="preserve"><value>Profil güncellendi: Kategori={0}, Çekirdek Sayısı={1}, Mask={2}</value></data>
+<data name="ErrorInvalidCoreCountFor" xml:space="preserve"><value>Hata: {0} için geçersiz çekirdek sayısı: {1}</value></data>
+<data name="InvalidCoreCount" xml:space="preserve"><value>Geçersiz çekirdek sayısı: {0}</value></data>
+<data name="ProfileUpdatedAndSaved" xml:space="preserve"><value>Profil güncellendi ve kaydedildi</value></data>
+<data name="ClassicProfileCreatedAndSaved" xml:space="preserve"><value>Klasik profil oluşturuldu ve kaydedildi</value></data>
+<data name="ClassicProfileCreated" xml:space="preserve"><value>Klasik profil oluşturuldu</value></data>
+<data name="AdvancedProfileCreatedAndSaved" xml:space="preserve"><value>Gelişmiş profil oluşturuldu ve kaydedildi</value></data>
+<data name="AdvancedProfileCreated" xml:space="preserve"><value>Gelişmiş profil oluşturuldu</value></data>
+<data name="LogsCleared" xml:space="preserve"><value>Loglar temizlendi</value></data>
+<data name="FilterApplied" xml:space="preserve"><value>Filtre uygulandı: Kategori={0}, Arama={1}</value></data>
+<data name="DevicesLoaded" xml:space="preserve"><value>{0} cihaz yüklendi</value></data>
+<data name="DevicesCouldNotBeLoadedWMI" xml:space="preserve"><value>Cihazlar yüklenemedi: WMI servisi çalışmıyor olabilir</value></data>
+<data name="FailedToListHardware" xml:space="preserve"><value>Donanımlar listelenemedi: {0}</value></data>
+<data name="WMIError" xml:space="preserve"><value>WMI hatası: {0}</value></data>
+<data name="CoreCheckboxesCreated" xml:space="preserve"><value>Çekirdek kutuları ({0}) oluşturuldu</value></data>
+<data name="ProfileLoadedFromAffinityProfileJson" xml:space="preserve"><value>Profil AffinityProfile.json yüklendi</value></data>
+<data name="ProfileFileCouldNotBeRead" xml:space="preserve"><value>Profil dosyası okunamadı: {0}</value></data>
+<data name="DefaultProfileLoaded" xml:space="preserve"><value>Varsayılan profil yüklendi</value></data>
+<data name="ProfileSavedToAffinityProfileJson" xml:space="preserve"><value>Profil AffinityProfile.json dosyasına kaydedildi</value></data>
+<data name="GPUAutoAssignment" xml:space="preserve"><value>GPU otomatik atama: {0} → Mask=0x{1} (CPU{2})</value></data>
+<data name="AutoAssignment" xml:space="preserve"><value>Otomatik atama: {0} → Mask=0x{1} ({2})</value></data>
+<data name="ErrorInsufficientCores" xml:space="preserve"><value>Hata: Yeterli çekirdek yok</value></data>
+<data name="Name" xml:space="preserve"><value>Name</value></data>
+  <data name="Category" xml:space="preserve"><value>Category</value></data>
+  <data name="Mask" xml:space="preserve"><value>Mask</value></data>
+  <data name="CoreAssignmentsSaved" xml:space="preserve"><value>Core assignments saved</value></data>
+  <data name="SaveMask" xml:space="preserve"><value>Kaydet</value></data>
+  <data name="All" xml:space="preserve"><value>Tümü</value></data>
+  <data name="AssignToAll" xml:space="preserve"><value>Hepsine Ata</value></data>
+  <data name="Automatic" xml:space="preserve"><value>Otomatik</value></data>
+  <data name="AutoPlay" xml:space="preserve"><value>Otomatik oynat [Otomatik sürücü yükleme]</value></data>
+  <data name="Biometric" xml:space="preserve"><value>Biyometrik [Parmak izi, HelloFace]</value></data>
+  <data name="BitLocker" xml:space="preserve"><value>Bitlocker Sürücü Şifreleme</value></data>
+  <data name="BloatwareCleaner" xml:space="preserve"><value>Bloatware Temizleyici</value></data>
+  <data name="Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="ClearLog" xml:space="preserve"><value>Günlüğü Temizle</value></data>
+  <data name="Connection" xml:space="preserve"><value>Bağlantı</value></data>
+  <data name="ContactsSync" xml:space="preserve"><value>Kişiler [Ana bilgisayarı eşitle]</value></data>
+  <data name="CpuUsage" xml:space="preserve"><value>CPU Kullanımı</value></data>
+  <data name="CreateAdvancedProfile" xml:space="preserve"><value>Gelişmiş Profil Oluştur</value></data>
+  <data name="CreateClassicProfile" xml:space="preserve"><value>Klasik Profil Oluştur</value></data>
+  <data name="DeliveryOptimization" xml:space="preserve"><value>Teslim en iyileştirme [Market, Xbox, Güncellemeler]</value></data>
+  <data name="Dependencies" xml:space="preserve"><value>Bağımlılıklar</value></data>
+  <data name="Description" xml:space="preserve"><value>Açıklama</value></data>
+  <data name="Device" xml:space="preserve"><value>Cihaz</value></data>
+  <data name="Disabled" xml:space="preserve"><value>Devre Dışı</value></data>
+  <data name="DiskDefragment" xml:space="preserve"><value>Disk Birleştirme [SSD/HDD, Trim]</value></data>
+  <data name="Enterprise" xml:space="preserve"><value>Kurumsal [Kiosk mod, Intune, AppLocker]</value></data>
+  <data name="FastStartup" xml:space="preserve"><value>Hızlı Getir-Başlat [HDD]</value></data>
+  <data name="FastUserSwitch" xml:space="preserve"><value>Hızlı Kullanıcı Değiştir [Blizzard]</value></data>
+  <data name="FontCache" xml:space="preserve"><value>Yazı Tipi Önbelliği [HDD]</value></data>
+  <data name="GameDVR" xml:space="preserve"><value>Oyun DVR ve Yayın [Xbox ekran kayıt]</value></data>
+  <data name="HotspotMiracast" xml:space="preserve"><value>Mobil Etkin Nokta [Miracast]</value></data>
+  <data name="InstallationCompleted" xml:space="preserve"><value>Tüm seçili güncellemeler için yükleme tamamlandı.</value></data>
+  <data name="InstallSelectedUpdates" xml:space="preserve"><value>Seçili Güncellemeleri Yükle</value></data>
+  <data name="InstallingSelectedUpdates" xml:space="preserve"><value>Seçilen güncellemeler yükleniyor...</value></data>
+  <data name="IPHelper" xml:space="preserve"><value>IP Yardımcısı [IPV6]</value></data>
+  <data name="Location" xml:space="preserve"><value>Konum</value></data>
+  <data name="Manual" xml:space="preserve"><value>Manuel</value></data>
+  <data name="MapsManager" xml:space="preserve"><value>İndirilen haritalar yöneticisi</value></data>
+  <data name="Media" xml:space="preserve"><value>Medya</value></data>
+  <data name="MeteredNetworks" xml:space="preserve"><value>Tarifeli Ağlar Kota Yöneticisi</value></data>
+  <data name="MiracastWireless" xml:space="preserve"><value>Miracast [Kablosuz Ekran]</value></data>
+  <data name="MixedReality" xml:space="preserve"><value>Karma gerçeklik [VR]</value></data>
+  <data name="NearbyDevices" xml:space="preserve"><value>Yönlendirici Yakındaki cihazlar</value></data>
+  <data name="NoUpdatesFound" xml:space="preserve"><value>Hiç güncelleme bulunamadı.</value></data>
+  <data name="NotSelected" xml:space="preserve"><value>Seçilmedi</value></data>
+  <data name="Other" xml:space="preserve"><value>Diğer</value></data>
+  <data name="ParentControl" xml:space="preserve"><value>Ebeveyn denetimleri</value></data>
+  <data name="PendingWindowsUpdates" xml:space="preserve"><value>Bekleyen Windows Güncellemeleri</value></data>
+  <data name="PenTouch" xml:space="preserve"><value>Kalem ve Dokunmatik</value></data>
+  <data name="PerformanceLogs" xml:space="preserve"><value>Performans günlükleri [Kurumsal]</value></data>
+  <data name="PhoneBluetooth" xml:space="preserve"><value>Telefon [Bluetooth]</value></data>
+  <data name="PleaseSelectAtLeastOneUpdate" xml:space="preserve"><value>Lütfen yüklemek için en az bir güncelleme seçin.</value></data>
+  <data name="PowerShellError" xml:space="preserve"><value>PowerShell Hatası:</value></data>
+  <data name="Printer" xml:space="preserve"><value>Yazıcı</value></data>
+  <data name="RadioAirplaneMode" xml:space="preserve"><value>Radyo ve Uçak Modu</value></data>
+  <data name="Refresh" xml:space="preserve"><value>Yenile</value></data>
+  <data name="RemoteDesktop" xml:space="preserve"><value>Uzak masaüstü</value></data>
+  <data name="Remove" xml:space="preserve"><value>Kaldır</value></data>
+  <data name="RemoveAll" xml:space="preserve"><value>Tümünü Kaldır</value></data>
+  <data name="Restore" xml:space="preserve"><value>Geri Al</value></data>
+  <data name="RetailDemo" xml:space="preserve"><value>Perakende gösteri</value></data>
+  <data name="ScanningUpdates" xml:space="preserve"><value>Güncellemeler taranıyor...</value></data>
+  <data name="ScannerCamera" xml:space="preserve"><value>Tarayıcı ve Kamera [OBS]</value></data>
+  <data name="SearchServices" xml:space="preserve"><value>Hizmet ara...</value></data>
+  <data name="Security" xml:space="preserve"><value>Güvenlik</value></data>
+  <data name="SelectAndInstall" xml:space="preserve"><value>Seçip yükleyebilirsiniz.</value></data>
+  <data name="SelectRecommended" xml:space="preserve"><value>Önerilenleri Seç</value></data>
+  <data name="Sensors" xml:space="preserve"><value>Sensörler [Laptop]</value></data>
+  <data name="ServiceName" xml:space="preserve"><value>Ad</value></data>
+  <data name="ServiceStopFailed" xml:space="preserve"><value>{0} servisi durdurulamadı: </value></data>
+  <data name="ServiceStopped" xml:space="preserve"><value>{0} servisi durduruldu.</value></data>
+  <data name="ServicesLoadError" xml:space="preserve"><value>Hizmetler yüklenemedi</value></data>
+  <data name="ServiceAlreadyStopped" xml:space="preserve"><value>{0} servisi zaten kapalı.</value></data>
+  <data name="ServiceNotFound" xml:space="preserve"><value>{0} servisi bulunamadı.</value></data>
+  <data name="SmartCard" xml:space="preserve"><value>Akıllı Kart [Çipli kart okuyucu]</value></data>
+  <data name="SnippingTool" xml:space="preserve"><value>Ekran yakalama</value></data>
+  <data name="StartType" xml:space="preserve"><value>Başlatma Türü</value></data>
+  <data name="Status" xml:space="preserve"><value>Durum</value></data>
+  <data name="StopSelectedServices" xml:space="preserve"><value>Seçili Servisleri Durdur</value></data>
+  <data name="StreamingNetwork" xml:space="preserve"><value>Akış Bağlı: Ağ üzeri veri, yazıcı paylaşımı</value></data>
+  <data name="SuggestedStoppableServices" xml:space="preserve"><value>Önerilen Kapatılabilir Servisler</value></data>
+  <data name="SuccessfullyInstalled" xml:space="preserve"><value>başarıyla yüklendi</value></data>
+  <data name="System" xml:space="preserve"><value>Sistem</value></data>
+  <data name="SystemRestore" xml:space="preserve"><value>Sistem Geri Yükleme [Dosya geçmişi]</value></data>
+  <data name="Telemetry" xml:space="preserve"><value>Telemetri</value></data>
+  <data name="TimeZoneUpdater" xml:space="preserve"><value>Otomatik Saat Dilimi Güncelleştirici</value></data>
+  <data name="Troubleshooting" xml:space="preserve"><value>Sorun giderme</value></data>
+  <data name="UpdatesFound" xml:space="preserve"><value>güncelleme bulundu</value></data>
+  <data name="VoiceCommand" xml:space="preserve"><value>Sesli Komut [Cortana]</value></data>
+  <data name="Wallet" xml:space="preserve"><value>Cüzdan</value></data>
+  <data name="WifiWARP" xml:space="preserve"><value>Wifi [Cloudflare WARP]</value></data>
+  <data name="WindowsConnectNow" xml:space="preserve"><value>Windows Şimdi Bağlan [WPS]</value></data>
+  <data name="WindowsInsider" xml:space="preserve"><value>Windows Insider</value></data>
+  <data name="WindowsSearch" xml:space="preserve"><value>Windows Search İndeksleme</value></data>
+  <data name="Xbox" xml:space="preserve"><value>Xbox</value></data>
+  <data name="Home_Title" xml:space="preserve"><value>WinFast: Windows'ta Performansın Kilidini Açın</value></data>
+  <data name="Home_Subtitle" xml:space="preserve"><value>Sisteminizi Hafifletin, Oyun ve Uygulamalarınızda Zirveye Çıkın.</value></data>
+  <data name="Home_WhatIsWinFast_Title" xml:space="preserve"><value>WinFast Nedir?</value></data>
+  <data name="Home_WhatIsWinFast_Description" xml:space="preserve"><value>WinFast, Windows işletim sisteminizi gereksiz hizmetlerden, gizliliğinizi ihlal eden telemetri verilerinden ve sistem kaynaklarınızı tüketen "bloatware" uygulamalardan arındırmak için tasarlanmış güçlü bir optimizasyon aracıdır. Özellikle oyuncular, güç kullanıcıları ve temiz bir sistem deneyimi arayanlar için geliştirilmiştir. WinFast ile kontrol tamamen sizin elinizde.</value></data>
+  <data name="Home_FeaturesAndUsage_Title" xml:space="preserve"><value>Ana Özellikler ve Kullanım</value></data>
+  <data name="Home_Feature_OptimizationManager_Title" xml:space="preserve"><value>Optimizasyon Yöneticisi</value></data>
+  <data name="Home_Feature_OptimizationManager_Description" xml:space="preserve"><value>Bu bölüm, sisteminizin performansını doğrudan etkileyen onlarca ince ayarı tek bir ekrandan yönetmenizi sağlar. Yılların tecrübesiyle oluşturulmuş ve güvenilir PowerShell script'leri ile çalışan bu optimizasyonlar, SYSTEM yetkileriyle çalışarak en derin sistem ayarlarına bile müdahale edebilir.</value></data>
+  <data name="Home_Feature_ApplicationRemover_Title" xml:space="preserve"><value>Uygulama Kaldırıcı</value></data>
+  <data name="Home_Feature_ApplicationRemover_Description" xml:space="preserve"><value>Windows ile birlikte gelen ve çoğu zaman kullanmadığınız Microsoft Store uygulamalarını (Hava Durumu, Haberler, 3D Builder vb.) sisteminizden tamamen kaldırmanızı sağlar. Listede bulunan 'Önerilen' ibaresi, hangi uygulamaların güvenle kaldırılabileceği konusunda size yol gösterir.</value></data>
+  <data name="Home_Feature_CustomTools_Title" xml:space="preserve"><value>Özel Araçlar</value></data>
+  <data name="Home_Feature_CustomTools_Description" xml:space="preserve"><value>İleri düzey kullanıcılar için tasarlanmış, spesifik işlemleri (Nvidia profili aktarma, özel güç profili yükleme vb.) yapmanızı sağlayan özel butonlar içerir.</value></data>
+  <data name="Home_QuickStartSteps_Title" xml:space="preserve"><value>Hızlı Başlangıç Adımları</value></data>
+  <data name="Home_QuickStartStep_1" xml:space="preserve"><value>•  1. Yönetici Olarak Başlatın: Uygulamayı her zaman sağ tıklayıp 'Yönetici olarak çalıştır' seçeneği ile başlatın.</value></data>
+  <data name="Home_QuickStartStep_2" xml:space="preserve"><value>•  2. İlgili Sekmeye Gidin: 'Optimizasyon Yöneticisi' veya 'Uygulama Kaldırıcı' sekmelerinden birini seçin.</value></data>
+  <data name="Home_QuickStartStep_3" xml:space="preserve"><value>•  3. Seçimlerinizi Yapın: Listelerden uygulamak veya kaldırmak istediğiniz öğeleri dikkatlice seçin.</value></data>
+  <data name="Home_QuickStartStep_4" xml:space="preserve"><value>•  4. İşlemi Başlatın: İlgili butona ('Seçilenleri Başlat' veya 'Kaldır') tıklayarak işlemi başlatın.</value></data>
+  <data name="Home_QuickStartStep_5" xml:space="preserve"><value>•  5. Logları Kontrol Edin: Uygulamanın log ekranı ve C:\Temp\WinFast_PS_Log.txt dosyası size sonuçları gösterecektir.</value></data>
+  <data name="Home_QuickStartStep_6" xml:space="preserve"><value>•  6. Yeniden Başlatın: Tüm işlemler bittikten sonra, ayarların tam olarak etkinleşmesi için bilgisayarınızı yeniden başlatın.</value></data>
+  <data name="Home_Warnings_Title" xml:space="preserve"><value>⚠️ UYARILAR VE SORUMLULUK REDDİ</value></data>
+  <data name="Home_Warnings_Description" xml:space="preserve"><value>WinFast, sisteminizde derinlemesine değişiklikler yapan güçlü bir araçtır. Yaptığınız işlemlerin sorumluluğu tamamen size aittir. Herhangi bir büyük değişiklik yapmadan önce, mutlaka Sistem Geri Yükleme Noktası oluşturmanız şiddetle tavsiye edilir.&#x0a;&#x0a;Kritik sistem bileşenlerini kaldırmak, geri döndürülmesi zor sorunlara yol açabilir. Ne yaptığınızdan emin değilseniz, ilgili seçenekleri işaretlemeyin. Bu araç, 'deneyimli kullanıcılar' düşünülerek tasarlanmıştır.</value></data>
+  <data name="Home_Footer" xml:space="preserve"><value>WinFast, sürekli gelişen bir projedir. Keyfini çıkarın!</value></data>
+</root>
