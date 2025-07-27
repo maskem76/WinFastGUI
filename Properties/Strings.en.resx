@@ -396,25 +396,4 @@
   <data name="WindowsInsider" xml:space="preserve"><value>Windows Insider</value></data>
   <data name="WindowsSearch" xml:space="preserve"><value>Windows Search Indexing</value></data>
   <data name="Xbox" xml:space="preserve"><value>Xbox</value></data>
-  <data name="Home_Title" xml:space="preserve"><value>WinFast: Unlock Performance in Windows</value></data>
-  <data name="Home_Subtitle" xml:space="preserve"><value>Lighten Your System, Excel in Your Games and Applications.</value></data>
-  <data name="Home_WhatIsWinFast_Title" xml:space="preserve"><value>What is WinFast?</value></data>
-  <data name="Home_WhatIsWinFast_Description" xml:space="preserve"><value>WinFast is a powerful optimization tool designed to free your Windows operating system from unnecessary services, privacy-violating telemetry data, and "bloatware" applications that consume your system resources. It is developed especially for gamers, power users, and those seeking a clean system experience. With WinFast, control is entirely in your hands.</value></data>
-  <data name="Home_FeaturesAndUsage_Title" xml:space="preserve"><value>Main Features and Usage</value></data>
-  <data name="Home_Feature_OptimizationManager_Title" xml:space="preserve"><value>Optimization Manager</value></data>
-  <data name="Home_Feature_OptimizationManager_Description" xml:space="preserve"><value>This section allows you to manage dozens of tweaks that directly impact your system's performance from a single screen. Built with years of experience and powered by reliable PowerShell scripts, these optimizations run with SYSTEM privileges to modify even the deepest system settings.</value></data>
-  <data name="Home_Feature_ApplicationRemover_Title" xml:space="preserve"><value>Application Remover</value></data>
-  <data name="Home_Feature_ApplicationRemover_Description" xml:space="preserve"><value>Allows you to completely remove Microsoft Store applications that come with Windows and are often unused (e.g., Weather, News, 3D Builder). The 'Recommended' label in the list guides you on which applications can be safely removed.</value></data>
-  <data name="Home_Feature_CustomTools_Title" xml:space="preserve"><value>Custom Tools</value></data>
-  <data name="Home_Feature_CustomTools_Description" xml:space="preserve"><value>Includes special buttons designed for advanced users, allowing you to perform specific actions (e.g., importing an Nvidia profile, loading a custom power profile).</value></data>
-  <data name="Home_QuickStartSteps_Title" xml:space="preserve"><value>Quick Start Steps</value></data>
-  <data name="Home_QuickStartStep_1" xml:space="preserve"><value>•  1. Run as Administrator: Always start the application by right-clicking and selecting 'Run as administrator'.</value></data>
-  <data name="Home_QuickStartStep_2" xml:space="preserve"><value>•  2. Navigate to the Relevant Tab: Choose either the 'Optimization Manager' or 'Application Remover' tab.</value></data>
-  <data name="Home_QuickStartStep_3" xml:space="preserve"><value>•  3. Make Your Selections: Carefully select the items you want to apply or remove from the lists.</value></data>
-  <data name="Home_QuickStartStep_4" xml:space="preserve"><value>•  4. Start the Process: Begin the operation by clicking the relevant button ('Start Selected' or 'Remove').</value></data>
-  <data name="Home_QuickStartStep_5" xml:space="preserve"><value>•  5. Check the Logs: The application's log screen and the C:\Temp\WinFast_PS_Log.txt file will show you the results.</value></data>
-  <data name="Home_QuickStartStep_6" xml:space="preserve"><value>•  6. Restart: After all operations are complete, restart your computer for the settings to take full effect.</value></data>
-  <data name="Home_Warnings_Title" xml:space="preserve"><value>⚠️ WARNINGS &amp; DISCLAIMER</value></data>
-  <data name="Home_Warnings_Description" xml:space="preserve"><value>WinFast is a powerful tool that makes deep changes to your system. The responsibility for the actions you perform is entirely yours. It is strongly recommended that you create a System Restore Point before making any major changes.&#x0a;&#x0a;Removing critical system components can lead to problems that are difficult to reverse. If you are not sure what you are doing, do not check the corresponding options. This tool is designed with 'experienced users' in mind.</value></data>
-  <data name="Home_Footer" xml:space="preserve"><value>WinFast is a constantly evolving project. Enjoy!</value></data>
 </root>

@@ -3,7 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:properties="clr-namespace:WinFastGUI.Properties"
              mc:Ignorable="d" 
              d:DesignHeight="800" d:DesignWidth="900"
              FontFamily="Segoe UI">
@@ -12,69 +11,69 @@
         <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
             <StackPanel Margin="25">
 
-                <TextBlock Text="{x:Static properties:Strings.Home_Title}" 
+                <TextBlock Text="WinFast: Windows'ta Performansın Kilidini Açın" 
                            FontSize="28" 
                            FontWeight="Bold" 
                            Foreground="#007ACC" 
                            TextWrapping="Wrap"/>
-                <TextBlock Text="{x:Static properties:Strings.Home_Subtitle}" 
+                <TextBlock Text="Sisteminizi Hafifletin, Oyun ve Uygulamalarınızda Zirveye Çıkın." 
                            FontSize="18" 
                            Foreground="LightGray" 
                            FontStyle="Italic"
                            Margin="0,5,0,25"/>
 
-                <TextBlock Text="{x:Static properties:Strings.Home_WhatIsWinFast_Title}" 
+                <TextBlock Text="WinFast Nedir?" 
                            FontSize="22" 
                            FontWeight="SemiBold" 
                            Foreground="White" 
                            Margin="0,0,0,10"/>
-                <TextBlock Text="{x:Static properties:Strings.Home_WhatIsWinFast_Description}" 
+                <TextBlock Text="WinFast, Windows işletim sisteminizi gereksiz hizmetlerden, gizliliğinizi ihlal eden telemetri verilerinden ve sistem kaynaklarınızı tüketen &quot;bloatware&quot; uygulamalardan arındırmak için tasarlanmış güçlü bir optimizasyon aracıdır. Özellikle oyuncular, güç kullanıcıları ve temiz bir sistem deneyimi arayanlar için geliştirilmiştir. WinFast ile kontrol tamamen sizin elinizde." 
                            FontSize="15" 
                            Foreground="WhiteSmoke"
                            TextWrapping="Wrap"
                            LineHeight="22"
                            Margin="0,0,0,25"/>
 
-                <TextBlock Text="{x:Static properties:Strings.Home_FeaturesAndUsage_Title}" 
+                <TextBlock Text="Ana Özellikler ve Kullanım" 
                            FontSize="22" 
                            FontWeight="SemiBold" 
                            Foreground="White" 
                            Margin="0,0,0,15"/>
 
-                <TextBlock Text="{x:Static properties:Strings.Home_Feature_OptimizationManager_Title}" FontSize="18" FontWeight="SemiBold" Foreground="#0099FF" Margin="0,0,0,5"/>
-                <TextBlock Text="{x:Static properties:Strings.Home_Feature_OptimizationManager_Description}" 
+                <TextBlock Text="1. Optimizasyon Yöneticisi" FontSize="18" FontWeight="SemiBold" Foreground="#0099FF" Margin="0,0,0,5"/>
+                <TextBlock Text="Bu bölüm, sisteminizin performansını doğrudan etkileyen onlarca ince ayarı tek bir ekrandan yönetmenizi sağlar. Yılların tecrübesiyle oluşturulmuş ve güvenilir PowerShell script'leri ile çalışan bu optimizasyonlar, SYSTEM yetkileriyle çalışarak en derin sistem ayarlarına bile müdahale edebilir." 
                            FontSize="15" Foreground="WhiteSmoke" TextWrapping="Wrap" LineHeight="22" Margin="10,0,0,15"/>
 
-                <TextBlock Text="{x:Static properties:Strings.Home_Feature_ApplicationRemover_Title}" FontSize="18" FontWeight="SemiBold" Foreground="#0099FF" Margin="0,0,0,5"/>
-                <TextBlock Text="{x:Static properties:Strings.Home_Feature_ApplicationRemover_Description}" 
+                <TextBlock Text="2. Uygulama Kaldırıcı" FontSize="18" FontWeight="SemiBold" Foreground="#0099FF" Margin="0,0,0,5"/>
+                <TextBlock Text="Windows ile birlikte gelen ve çoğu zaman kullanmadığınız Microsoft Store uygulamalarını (Hava Durumu, Haberler, 3D Builder vb.) sisteminizden tamamen kaldırmanızı sağlar. Listede bulunan 'Önerilen' ibaresi, hangi uygulamaların güvenle kaldırılabileceği konusunda size yol gösterir." 
                            FontSize="15" Foreground="WhiteSmoke" TextWrapping="Wrap" LineHeight="22" Margin="10,0,0,15"/>
                 
-                <TextBlock Text="{x:Static properties:Strings.Home_Feature_CustomTools_Title}" FontSize="18" FontWeight="SemiBold" Foreground="#0099FF" Margin="0,0,0,5"/>
-                <TextBlock Text="{x:Static properties:Strings.Home_Feature_CustomTools_Description}" 
+                <TextBlock Text="3. Özel Araçlar" FontSize="18" FontWeight="SemiBold" Foreground="#0099FF" Margin="0,0,0,5"/>
+                <TextBlock Text="İleri düzey kullanıcılar için tasarlanmış, spesifik işlemleri (Nvidia profili aktarma, özel güç profili yükleme vb.) yapmanızı sağlayan özel butonlar içerir." 
                            FontSize="15" Foreground="WhiteSmoke" TextWrapping="Wrap" LineHeight="22" Margin="10,0,0,25"/>
 
-                <TextBlock Text="{x:Static properties:Strings.Home_QuickStartSteps_Title}" 
+                <TextBlock Text="Hızlı Başlangıç Adımları" 
                            FontSize="22" 
                            FontWeight="SemiBold" 
                            Foreground="White" 
                            Margin="0,0,0,10"/>
                 <StackPanel Margin="10,0,0,25">
-                    <TextBlock Text="{x:Static properties:Strings.Home_QuickStartStep_1}" FontSize="15" Foreground="WhiteSmoke" Margin="0,0,0,5"/>
-                    <TextBlock Text="{x:Static properties:Strings.Home_QuickStartStep_2}" FontSize="15" Foreground="WhiteSmoke" Margin="0,0,0,5"/>
-                    <TextBlock Text="{x:Static properties:Strings.Home_QuickStartStep_3}" FontSize="15" Foreground="WhiteSmoke" Margin="0,0,0,5"/>
-                    <TextBlock Text="{x:Static properties:Strings.Home_QuickStartStep_4}" FontSize="15" Foreground="WhiteSmoke" Margin="0,0,0,5"/>
-                    <TextBlock Text="{x:Static properties:Strings.Home_QuickStartStep_5}" FontSize="15" Foreground="WhiteSmoke" Margin="0,0,0,5"/>
-                    <TextBlock Text="{x:Static properties:Strings.Home_QuickStartStep_6}" FontSize="15" Foreground="WhiteSmoke" Margin="0,0,0,5"/>
+                    <TextBlock Text="•  1. Yönetici Olarak Başlatın: Uygulamayı her zaman sağ tıklayıp 'Yönetici olarak çalıştır' seçeneği ile başlatın." FontSize="15" Foreground="WhiteSmoke" Margin="0,0,0,5"/>
+                    <TextBlock Text="•  2. İlgili Sekmeye Gidin: 'Optimizasyon Yöneticisi' veya 'Uygulama Kaldırıcı' sekmelerinden birini seçin." FontSize="15" Foreground="WhiteSmoke" Margin="0,0,0,5"/>
+                    <TextBlock Text="•  3. Seçimlerinizi Yapın: Listelerden uygulamak veya kaldırmak istediğiniz öğeleri dikkatlice seçin." FontSize="15" Foreground="WhiteSmoke" Margin="0,0,0,5"/>
+                    <TextBlock Text="•  4. İşlemi Başlatın: İlgili butona ('Seçilenleri Başlat' veya 'Kaldır') tıklayarak işlemi başlatın." FontSize="15" Foreground="WhiteSmoke" Margin="0,0,0,5"/>
+                    <TextBlock Text="•  5. Logları Kontrol Edin: Uygulamanın log ekranı ve C:\Temp\WinFast_PS_Log.txt dosyası size sonuçları gösterecektir." FontSize="15" Foreground="WhiteSmoke" Margin="0,0,0,5"/>
+                    <TextBlock Text="•  6. Yeniden Başlatın: Tüm işlemler bittikten sonra, ayarların tam olarak etkinleşmesi için bilgisayarınızı yeniden başlatın." FontSize="15" Foreground="WhiteSmoke" Margin="0,0,0,5"/>
                 </StackPanel>
                 
                 <Border BorderBrush="#FFC107" BorderThickness="2" CornerRadius="5" Background="#2D2D30" Padding="15">
                     <StackPanel>
-                        <TextBlock Text="{x:Static properties:Strings.Home_Warnings_Title}" 
+                        <TextBlock Text="⚠️ UYARILAR VE SORUMLULUK REDDİ" 
                                    FontSize="18" 
                                    FontWeight="Bold" 
                                    Foreground="#FFC107"
                                    Margin="0,0,0,10"/>
-                        <TextBlock Text="{x:Static properties:Strings.Home_Warnings_Description}" 
+                        <TextBlock Text="WinFast, sisteminizde derinlemesine değişiklikler yapan güçlü bir araçtır. Yaptığınız işlemlerin sorumluluğu tamamen size aittir. Herhangi bir büyük değişiklik yapmadan önce, mutlaka Sistem Geri Yükleme Noktası oluşturmanız şiddetle tavsiye edilir.&#x0a;&#x0a;Kritik sistem bileşenlerini kaldırmak, geri döndürülmesi zor sorunlara yol açabilir. Ne yaptığınızdan emin değilseniz, ilgili seçenekleri işaretlemeyin. Bu araç, 'deneyimli kullanıcılar' düşünülerek tasarlanmıştır."
                                    FontSize="15" 
                                    Foreground="White"
                                    TextWrapping="Wrap"
@@ -82,7 +81,7 @@
                     </StackPanel>
                 </Border>
 
-                <TextBlock Text="{x:Static properties:Strings.Home_Footer}" 
+                <TextBlock Text="WinFast, sürekli gelişen bir projedir. Keyfini çıkarın!" 
                            FontSize="16" 
                            Foreground="LightGray"
                            FontStyle="Italic"

@@ -396,25 +396,4 @@
   <data name="WindowsInsider" xml:space="preserve"><value>Windows Insider</value></data>
   <data name="WindowsSearch" xml:space="preserve"><value>Windows Search İndeksleme</value></data>
   <data name="Xbox" xml:space="preserve"><value>Xbox</value></data>
-  <data name="Home_Title" xml:space="preserve"><value>WinFast: Windows'ta Performansın Kilidini Açın</value></data>
-  <data name="Home_Subtitle" xml:space="preserve"><value>Sisteminizi Hafifletin, Oyun ve Uygulamalarınızda Zirveye Çıkın.</value></data>
-  <data name="Home_WhatIsWinFast_Title" xml:space="preserve"><value>WinFast Nedir?</value></data>
-  <data name="Home_WhatIsWinFast_Description" xml:space="preserve"><value>WinFast, Windows işletim sisteminizi gereksiz hizmetlerden, gizliliğinizi ihlal eden telemetri verilerinden ve sistem kaynaklarınızı tüketen "bloatware" uygulamalardan arındırmak için tasarlanmış güçlü bir optimizasyon aracıdır. Özellikle oyuncular, güç kullanıcıları ve temiz bir sistem deneyimi arayanlar için geliştirilmiştir. WinFast ile kontrol tamamen sizin elinizde.</value></data>
-  <data name="Home_FeaturesAndUsage_Title" xml:space="preserve"><value>Ana Özellikler ve Kullanım</value></data>
-  <data name="Home_Feature_OptimizationManager_Title" xml:space="preserve"><value>Optimizasyon Yöneticisi</value></data>
-  <data name="Home_Feature_OptimizationManager_Description" xml:space="preserve"><value>Bu bölüm, sisteminizin performansını doğrudan etkileyen onlarca ince ayarı tek bir ekrandan yönetmenizi sağlar. Yılların tecrübesiyle oluşturulmuş ve güvenilir PowerShell script'leri ile çalışan bu optimizasyonlar, SYSTEM yetkileriyle çalışarak en derin sistem ayarlarına bile müdahale edebilir.</value></data>
-  <data name="Home_Feature_ApplicationRemover_Title" xml:space="preserve"><value>Uygulama Kaldırıcı</value></data>
-  <data name="Home_Feature_ApplicationRemover_Description" xml:space="preserve"><value>Windows ile birlikte gelen ve çoğu zaman kullanmadığınız Microsoft Store uygulamalarını (Hava Durumu, Haberler, 3D Builder vb.) sisteminizden tamamen kaldırmanızı sağlar. Listede bulunan 'Önerilen' ibaresi, hangi uygulamaların güvenle kaldırılabileceği konusunda size yol gösterir.</value></data>
-  <data name="Home_Feature_CustomTools_Title" xml:space="preserve"><value>Özel Araçlar</value></data>
-  <data name="Home_Feature_CustomTools_Description" xml:space="preserve"><value>İleri düzey kullanıcılar için tasarlanmış, spesifik işlemleri (Nvidia profili aktarma, özel güç profili yükleme vb.) yapmanızı sağlayan özel butonlar içerir.</value></data>
-  <data name="Home_QuickStartSteps_Title" xml:space="preserve"><value>Hızlı Başlangıç Adımları</value></data>
-  <data name="Home_QuickStartStep_1" xml:space="preserve"><value>•  1. Yönetici Olarak Başlatın: Uygulamayı her zaman sağ tıklayıp 'Yönetici olarak çalıştır' seçeneği ile başlatın.</value></data>
-  <data name="Home_QuickStartStep_2" xml:space="preserve"><value>•  2. İlgili Sekmeye Gidin: 'Optimizasyon Yöneticisi' veya 'Uygulama Kaldırıcı' sekmelerinden birini seçin.</value></data>
-  <data name="Home_QuickStartStep_3" xml:space="preserve"><value>•  3. Seçimlerinizi Yapın: Listelerden uygulamak veya kaldırmak istediğiniz öğeleri dikkatlice seçin.</value></data>
-  <data name="Home_QuickStartStep_4" xml:space="preserve"><value>•  4. İşlemi Başlatın: İlgili butona ('Seçilenleri Başlat' veya 'Kaldır') tıklayarak işlemi başlatın.</value></data>
-  <data name="Home_QuickStartStep_5" xml:space="preserve"><value>•  5. Logları Kontrol Edin: Uygulamanın log ekranı ve C:\Temp\WinFast_PS_Log.txt dosyası size sonuçları gösterecektir.</value></data>
-  <data name="Home_QuickStartStep_6" xml:space="preserve"><value>•  6. Yeniden Başlatın: Tüm işlemler bittikten sonra, ayarların tam olarak etkinleşmesi için bilgisayarınızı yeniden başlatın.</value></data>
-  <data name="Home_Warnings_Title" xml:space="preserve"><value>⚠️ UYARILAR VE SORUMLULUK REDDİ</value></data>
-  <data name="Home_Warnings_Description" xml:space="preserve"><value>WinFast, sisteminizde derinlemesine değişiklikler yapan güçlü bir araçtır. Yaptığınız işlemlerin sorumluluğu tamamen size aittir. Herhangi bir büyük değişiklik yapmadan önce, mutlaka Sistem Geri Yükleme Noktası oluşturmanız şiddetle tavsiye edilir.&#x0a;&#x0a;Kritik sistem bileşenlerini kaldırmak, geri döndürülmesi zor sorunlara yol açabilir. Ne yaptığınızdan emin değilseniz, ilgili seçenekleri işaretlemeyin. Bu araç, 'deneyimli kullanıcılar' düşünülerek tasarlanmıştır.</value></data>
-  <data name="Home_Footer" xml:space="preserve"><value>WinFast, sürekli gelişen bir projedir. Keyfini çıkarın!</value></data>
 </root>
