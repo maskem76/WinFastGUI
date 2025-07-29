@@ -396,4 +396,20 @@
   <data name="WindowsInsider" xml:space="preserve"><value>Windows Insider</value></data>
   <data name="WindowsSearch" xml:space="preserve"><value>Windows Search Indexing</value></data>
   <data name="Xbox" xml:space="preserve"><value>Xbox</value></data>
+  <data name="AccessDenied" xml:space="preserve"><value> -> Access denied, skipping directory: {0}</value></data> 
+  <data name="AppStarted" xml:space="preserve"><value>Application started.</value></data>
+  <data name="CleanCancelled" xml:space="preserve"><value>Operation canceled by user.</value></data>
+  <data name="CleanCompleted" xml:space="preserve"><value>Cleanup complete! Total {0} files deleted.</value></data>
+  <data name="CleanStarted" xml:space="preserve"><value>Cleaning process started on drive '{0}' with mode '{1}'.</value></data>
+  <data name="CriticalProcessLocked" xml:space="preserve"><value>Critical processes are locking the file, attempting force delete with NSudo: {0}</value></data>
+  <data name="DosyaIslenirkenHata" xml:space="preserve"><value>Error while processing file: {0} - {1}</value></data>
+  <data name="DosyaSilinirkenHata" xml:space="preserve"><value>Error while deleting file: {0} - {1}</value></data>
+  <data name="EnumerationError" xml:space="preserve"><value> -> Error reading directory: {0} - {1}</value></data>
+  <data name="FileLocked" xml:space="preserve"><value>File locked/inaccessible: {0}, searching for processes...</value></data>
+  <data name="ForceDeleted" xml:space="preserve"><value>-> Force deleted with NSudo: {0}</value></data>
+  <data name="Isleniyor" xml:space="preserve"><value>Processing: {0}</value></data>
+  <data name="SelectedMode" xml:space="preserve"><value>Selected mode: {0} (Tag: {1})</value></data>
+  <data name="SubDirAccessDenied" xml:space="preserve"><value> -> Access denied, skipping subdirectories: {0}</value></data>
+  <data name="SubDirError" xml:space="preserve"><value> -> Subdirectory scan error: {0} - {1}</value></data>
+  <data name="TaramaBaslaniyor" xml:space="preserve"><value>Starting scan on: {0}</value></data>
 </root>

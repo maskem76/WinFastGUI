@@ -61,6 +61,15 @@ namespace WinFastGUI.Properties {
         }
         
         /// <summary>
+        ///    -&gt; Erişim reddedildi, dizin atlanıyor: {0} benzeri yerelleştirilmiş bir dize arar.
+        /// </summary>
+        public static string AccessDenied {
+            get {
+                return ResourceManager.GetString("AccessDenied", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Erişim reddedildi, NSudo ile deneniyor: benzeri yerelleştirilmiş bir dize arar.
         /// </summary>
         public static string AccessDeniedTryingNSudo {
@@ -219,6 +228,15 @@ namespace WinFastGUI.Properties {
         public static string AppManagement {
             get {
                 return ResourceManager.GetString("AppManagement", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Uygulama başlatıldı. benzeri yerelleştirilmiş bir dize arar.
+        /// </summary>
+        public static string AppStarted {
+            get {
+                return ResourceManager.GetString("AppStarted", resourceCulture);
             }
         }
         
@@ -583,6 +601,24 @@ namespace WinFastGUI.Properties {
         }
         
         /// <summary>
+        ///   İşlem kullanıcı tarafından iptal edildi. benzeri yerelleştirilmiş bir dize arar.
+        /// </summary>
+        public static string CleanCancelled {
+            get {
+                return ResourceManager.GetString("CleanCancelled", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Temizlik tamamlandı! Toplam {0} dosya silindi. benzeri yerelleştirilmiş bir dize arar.
+        /// </summary>
+        public static string CleanCompleted {
+            get {
+                return ResourceManager.GetString("CleanCompleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Temizlik iptal edildi. benzeri yerelleştirilmiş bir dize arar.
         /// </summary>
         public static string CleaningCanceled {
@@ -624,6 +660,15 @@ namespace WinFastGUI.Properties {
         public static string CleaningStartedWithMode {
             get {
                 return ResourceManager.GetString("CleaningStartedWithMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   &apos;{0}&apos; sürücüsü ile &apos;{1}&apos; temizlik işlemi başlatıldı. benzeri yerelleştirilmiş bir dize arar.
+        /// </summary>
+        public static string CleanStarted {
+            get {
+                return ResourceManager.GetString("CleanStarted", resourceCulture);
             }
         }
         
@@ -871,6 +916,15 @@ namespace WinFastGUI.Properties {
         }
         
         /// <summary>
+        ///   Kritik süreçler dosyayı kilitliyor, NSudo ile zorla silme denenecek: {0} benzeri yerelleştirilmiş bir dize arar.
+        /// </summary>
+        public static string CriticalProcessLocked {
+            get {
+                return ResourceManager.GetString("CriticalProcessLocked", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Derin Temizlik benzeri yerelleştirilmiş bir dize arar.
         /// </summary>
         public static string DeepClean {
@@ -1024,6 +1078,24 @@ namespace WinFastGUI.Properties {
         }
         
         /// <summary>
+        ///   Dosya işlenirken hata: {0} - {1} benzeri yerelleştirilmiş bir dize arar.
+        /// </summary>
+        public static string DosyaIslenirkenHata {
+            get {
+                return ResourceManager.GetString("DosyaIslenirkenHata", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Dosya silinirken hata: {0} - {1} benzeri yerelleştirilmiş bir dize arar.
+        /// </summary>
+        public static string DosyaSilinirkenHata {
+            get {
+                return ResourceManager.GetString("DosyaSilinirkenHata", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Profili Düzenle benzeri yerelleştirilmiş bir dize arar.
         /// </summary>
         public static string EditProfile {
@@ -1065,6 +1137,15 @@ namespace WinFastGUI.Properties {
         public static string Enterprise {
             get {
                 return ResourceManager.GetString("Enterprise", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    -&gt; Dizin okunurken hata: {0} - {1} benzeri yerelleştirilmiş bir dize arar.
+        /// </summary>
+        public static string EnumerationError {
+            get {
+                return ResourceManager.GetString("EnumerationError", resourceCulture);
             }
         }
         
@@ -1240,6 +1321,15 @@ namespace WinFastGUI.Properties {
         }
         
         /// <summary>
+        ///   Dosya kilitli/erişilemez: {0}, süreçler aranıyor... benzeri yerelleştirilmiş bir dize arar.
+        /// </summary>
+        public static string FileLocked {
+            get {
+                return ResourceManager.GetString("FileLocked", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   dosya silindi benzeri yerelleştirilmiş bir dize arar.
         /// </summary>
         public static string FilesDeleted {
@@ -1281,6 +1371,15 @@ namespace WinFastGUI.Properties {
         public static string ForcedDeleteWithNSudo {
             get {
                 return ResourceManager.GetString("ForcedDeleteWithNSudo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   -&gt; NSudo ile zorla silindi: {0} benzeri yerelleştirilmiş bir dize arar.
+        /// </summary>
+        public static string ForceDeleted {
+            get {
+                return ResourceManager.GetString("ForceDeleted", resourceCulture);
             }
         }
         
@@ -1515,6 +1614,15 @@ namespace WinFastGUI.Properties {
         public static string IrqTool {
             get {
                 return ResourceManager.GetString("IrqTool", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   İşleniyor: {0} benzeri yerelleştirilmiş bir dize arar.
+        /// </summary>
+        public static string Isleniyor {
+            get {
+                return ResourceManager.GetString("Isleniyor", resourceCulture);
             }
         }
         
@@ -2698,6 +2806,15 @@ namespace WinFastGUI.Properties {
         }
         
         /// <summary>
+        ///   Seçilen mod: {0} (Tag: {1}) benzeri yerelleştirilmiş bir dize arar.
+        /// </summary>
+        public static string SelectedMode {
+            get {
+                return ResourceManager.GetString("SelectedMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   İmaj Şablonu Seç benzeri yerelleştirilmiş bir dize arar.
         /// </summary>
         public static string SelectImageTemplate {
@@ -3157,6 +3274,24 @@ namespace WinFastGUI.Properties {
         }
         
         /// <summary>
+        ///    -&gt; Erişim reddedildi, alt dizinler atlanıyor: {0} benzeri yerelleştirilmiş bir dize arar.
+        /// </summary>
+        public static string SubDirAccessDenied {
+            get {
+                return ResourceManager.GetString("SubDirAccessDenied", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    -&gt; Alt dizin tarama hatası: {0} - {1} benzeri yerelleştirilmiş bir dize arar.
+        /// </summary>
+        public static string SubDirError {
+            get {
+                return ResourceManager.GetString("SubDirError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Başarılı benzeri yerelleştirilmiş bir dize arar.
         /// </summary>
         public static string Success {
@@ -3234,6 +3369,15 @@ namespace WinFastGUI.Properties {
         public static string TakeSnapshot {
             get {
                 return ResourceManager.GetString("TakeSnapshot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Taramaya başlanıyor: {0} benzeri yerelleştirilmiş bir dize arar.
+        /// </summary>
+        public static string TaramaBaslaniyor {
+            get {
+                return ResourceManager.GetString("TaramaBaslaniyor", resourceCulture);
             }
         }
         

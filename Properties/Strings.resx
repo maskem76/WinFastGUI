@@ -396,4 +396,20 @@
   <data name="WindowsInsider" xml:space="preserve"><value>Windows Insider</value></data>
   <data name="WindowsSearch" xml:space="preserve"><value>Windows Search İndeksleme</value></data>
   <data name="Xbox" xml:space="preserve"><value>Xbox</value></data>
+  <data name="AccessDenied" xml:space="preserve"><value> -> Erişim reddedildi, dizin atlanıyor: {0}</value></data>
+  <data name="AppStarted" xml:space="preserve"><value>Uygulama başlatıldı.</value></data>
+  <data name="CleanCancelled" xml:space="preserve"><value>İşlem kullanıcı tarafından iptal edildi.</value></data>
+  <data name="CleanCompleted" xml:space="preserve"><value>Temizlik tamamlandı! Toplam {0} dosya silindi.</value></data>
+  <data name="CleanStarted" xml:space="preserve"><value>'{0}' sürücüsü ile '{1}' temizlik işlemi başlatıldı.</value></data>
+  <data name="CriticalProcessLocked" xml:space="preserve"><value>Kritik süreçler dosyayı kilitliyor, NSudo ile zorla silme denenecek: {0}</value></data>
+  <data name="DosyaIslenirkenHata" xml:space="preserve"><value>Dosya işlenirken hata: {0} - {1}</value></data>
+  <data name="DosyaSilinirkenHata" xml:space="preserve"><value>Dosya silinirken hata: {0} - {1}</value></data>
+  <data name="EnumerationError" xml:space="preserve"><value> -> Dizin okunurken hata: {0} - {1}</value></data>
+  <data name="FileLocked" xml:space="preserve"><value>Dosya kilitli/erişilemez: {0}, süreçler aranıyor...</value></data>
+  <data name="ForceDeleted" xml:space="preserve"><value>-> NSudo ile zorla silindi: {0}</value></data>
+  <data name="Isleniyor" xml:space="preserve"><value>İşleniyor: {0}</value></data>
+  <data name="SelectedMode" xml:space="preserve"><value>Seçilen mod: {0} (Tag: {1})</value></data>
+  <data name="SubDirAccessDenied" xml:space="preserve"><value> -> Erişim reddedildi, alt dizinler atlanıyor: {0}</value></data>
+  <data name="SubDirError" xml:space="preserve"><value> -> Alt dizin tarama hatası: {0} - {1}</value></data>
+  <data name="TaramaBaslaniyor" xml:space="preserve"><value>Taramaya başlanıyor: {0}</value></data>
 </root>

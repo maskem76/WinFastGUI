@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <UserControl x:Class="WinFastGUI.SystemCleanUserControl"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -106,11 +107,19 @@
                       Width="260" Height="38"
                       VerticalAlignment="Center"
                       Margin="0,0,12,0"
-                      SelectedIndex="0">
-                <ComboBoxItem Content="{x:Static p:Strings.QuickClean}"/>
-                <ComboBoxItem Content="{x:Static p:Strings.DeepClean}"/>
-                <ComboBoxItem Content="{x:Static p:Strings.ExtendedClean}"/>
+                      SelectionChanged="CleanModeComboBox_SelectionChanged">
+                <ComboBoxItem Content="{x:Static p:Strings.QuickClean}" Tag="Quick"/>
+                <ComboBoxItem Content="{x:Static p:Strings.DeepClean}" Tag="Deep"/>
+                <ComboBoxItem Content="{x:Static p:Strings.ExtendedClean}" Tag="Extended"/>
             </ComboBox>
+
+            <ComboBox x:Name="DriveSelectComboBox" 
+                      Width="260" Height="38"
+                      VerticalAlignment="Center"
+                      Margin="0,0,12,0">
+                <!-- Sabit Diskler Dinamik Olarak Eklenecek -->
+            </ComboBox>
+
             <Button x:Name="StartCleanButton" Content="{x:Static p:Strings.Start}" Width="110" Style="{StaticResource ColoredButton}" Background="#43a047" Click="StartCleanButton_Click"/>
             <Button x:Name="StopButton" Content="{x:Static p:Strings.Stop}" Width="110" Style="{StaticResource ColoredButton}" Background="#ffb300" Click="StopButton_Click"/>
             <Button x:Name="RestartButton" Content="{x:Static p:Strings.Restart}" Width="135" Style="{StaticResource ColoredButton}" Background="#3949ab" Click="RestartButton_Click"/>
