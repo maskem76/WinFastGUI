@@ -28,6 +28,7 @@ x86/
 [Aa][Rr][Mm]64/
 bld/
 [Bb]in/
+!bin/Release/net8.0-windows/WinFastGUI.exe
 [Oo]bj/
 [Oo]ut/
 [Ll]og/
@@ -241,11 +242,11 @@ ClientBin/
 orleans.codegen.cs
 
 # Including strong name files can present a security risk
-# (https://github.com/github/gitignore/pull/2483#issue-259490424)
+#[](https://github.com/github/gitignore/pull/2483#issue-259490424)
 #*.snk
 
 # Since there are multiple workflows, uncomment next line to ignore bower_components
-# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+#[](https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
 #bower_components/
 
 # RIA/Silverlight projects

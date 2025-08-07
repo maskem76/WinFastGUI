@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoftwareIdentity
+    xmlns="http://standards.iso.org/iso/19770/-2/2015/schema.xsd"
+    name="WiNFaST"
+    version="1.5.0.0"
+    tagId="com.leventb.winfast.1.5.0.0"
+    tagCreator="LeVeNTB">
+    <Entity name="LeVeNTB" role="tagCreator softwareCreator" regid="com.leventb" />
+    <Meta product="System Optimization Tool" colloquialVersion="1.5" />
+</SoftwareIdentity>
