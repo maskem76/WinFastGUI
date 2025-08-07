@@ -1,0 +1,39 @@
+name: Build and Sign WiNFaST
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-sign:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Install Inno Setup
+      run: choco install innosetup -y
+
+    - name: Build Setup with Inno Setup
+      run: |
+        "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" WiNFaST.iss
+      env:
+        OutputDir: C:\WinFast_Kurulum_Ciktisi
+
+    - name: Sign with SignPath
+      run: |
+        curl -X POST https://api.signpath.io/sign \
+        -H "Authorization: Bearer ${{ secrets.SIGNPATH_TOKEN }}" \
+        -F "file=@C:\WinFast_Kurulum_Ciktisi\WiNFaST_v1.5.0.0_Setup.exe" \
+        -F "project=WiNFaST" \
+        -F "artifact=winfast-1.5.0.0" \
+        -o C:\WinFast_Kurulum_Ciktisi\WiNFaST_v1.5.0.0_Setup-signed.exe
+      env:
+        SIGNPATH_TOKEN: ${{ secrets.SIGNPATH_TOKEN }}
+
+    - name: Upload Signed Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: WiNFaST-Signed-Setup
+        path: C:\WinFast_Kurulum_Ciktisi\WiNFaST_v1.5.0.0_Setup-signed.exe
