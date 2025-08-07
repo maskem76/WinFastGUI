@@ -1,0 +1,7 @@
+<SoftwareIdentity 
+    xmlns="http://standards.iso.org/iso/19770/-2/2015/schema.xsd"
+    name="YourApp"
+    version="1.0.0"
+    tagId="yourcompany-yourapp-1.0.0">
+    <Entity name="YourCompany" regid="yourcompany.com" role="tagCreator"/>
+</SoftwareIdentity>

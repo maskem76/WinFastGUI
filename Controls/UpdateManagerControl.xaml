@@ -1,0 +1,39 @@
+<UserControl x:Class="WinFastGUI.Controls.UpdateManagerControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="#212131">
+    <Grid Margin="18">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="210"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Başlık -->
+        <TextBlock x:Name="titleTextBlock" FontWeight="Bold" FontSize="18"
+                   Foreground="White" Margin="0,0,0,10"/>
+
+        <!-- Güncelleme Listesi -->
+        <ListBox x:Name="UpdateListBox" Grid.Row="1" 
+                 Background="#151522" Foreground="White" 
+                 FontSize="15" BorderBrush="White" BorderThickness="2"
+                 SelectionMode="Extended" />
+
+        <!-- Bilgi / Log -->
+        <TextBlock x:Name="InfoTextBlock" Grid.Row="2" Margin="0,10,0,8" FontSize="15" 
+                   Foreground="Orange" Text="" />
+
+        <!-- Butonlar ve Progress -->
+        <StackPanel Grid.Row="3" Orientation="Horizontal" VerticalAlignment="Top" Margin="0,10,0,0">
+            <ProgressBar x:Name="ProgressBar1" Height="26" Width="220" Margin="0,0,10,0" VerticalAlignment="Center"/>
+            <Button x:Name="RefreshButton" Content="Yenile" Width="100" Margin="0,0,10,0" Click="RefreshButton_Click"/>
+            <Button x:Name="InstallSelectedButton" Content="Seçili Güncellemeleri Yükle" Width="200" Click="InstallSelectedButton_Click"/>
+            <!-- Dil Seçici -->
+            <ComboBox x:Name="LanguageComboBox" Width="100" Margin="10,0,0,0">
+                <ComboBoxItem Content="Türkçe"/>
+                <ComboBoxItem Content="English"/>
+            </ComboBox>
+        </StackPanel>
+    </Grid>
+</UserControl>

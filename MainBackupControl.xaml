@@ -1,0 +1,28 @@
+﻿<UserControl x:Class="WinFastGUI.Controls.MainBackupControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WinFastGUI.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="550" d:DesignWidth="800">
+    <Grid>
+        <TabControl>
+            <!-- Sistem Yedeği Oluşturma Sekmesi -->
+            <TabItem Header="Sistem Yedeği Oluştur">
+                <Grid>
+                    <!-- Bu kontrolün projenizde zaten var olduğunu varsayıyoruz. -->
+                    <local:ImageBackupControl/>
+                </Grid>
+            </TabItem>
+            
+            <!-- WIM'den ISO Oluşturma Sekmesi -->
+            <TabItem Header="WIM'den ISO Oluştur">
+                <Grid>
+                    <!-- Bu kontrolün projenizde zaten var olduğunu varsayıyoruz. -->
+                    <local:ImageToIsoControl/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</UserControl>

@@ -1,0 +1,131 @@
+﻿<Window xmlns:p="clr-namespace:WinFastGUI.Properties" x:Class="WinFastGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:WinFastGUI.Controls"
+        Title="WinFast Optimizasyon Aracı v13.1"
+        Height="750" Width="1200"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanResize"
+        Background="#232323">
+    <Window.Resources>
+        <Style x:Key="LeftMenuButtonStyle" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="7">
+                            <DockPanel LastChildFill="True">
+                                <Image Source="{Binding Tag, RelativeSource={RelativeSource TemplatedParent}}" Width="22" Height="22" Margin="18,0,8,0" VerticalAlignment="Center" DockPanel.Dock="Left"/>
+                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                            </DockPanel>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="230"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Background="#232c36" VerticalAlignment="Stretch">
+            <ComboBox x:Name="LanguageComboBox" SelectionChanged="LanguageComboBox_SelectionChanged" Width="200" Margin="14,10,14,10">
+                <ComboBoxItem Content="Türkçe" Tag="tr-TR" IsSelected="True"/>
+                <ComboBoxItem Content="English" Tag="en-US"/>
+            </ComboBox>
+            <Button x:Name="HomeButton" Click="HomeButton_Click"
+                    Height="52" Margin="14,10,14,0"
+                    Background="#43a047"
+                    Content="{x:Static p:Strings.Home}"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/home.png"/>
+            <Button x:Name="SystemCleanButton" Click="SystemCleanButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#0288d1"
+                    Content="{x:Static p:Strings.SystemCleanup}"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/clean_icon.png"/>
+            <Button x:Name="AppManagerButton" Click="AppManagerButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#8e24aa"
+                    Content="{x:Static p:Strings.AppManagement}"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/icon.png"/>
+            <Button x:Name="BackupButton" Click="BackupButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#ff9800"
+                    Content="{x:Static p:Strings.Backup}"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/backup_icon.png"/>
+            <Button x:Name="ImageBackupButton" Click="ImageBackupButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#7b1fa2"
+                    Content="{x:Static p:Strings.ImageCreator}"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/iso_icon.png"/>
+            <Button x:Name="OptimizationManagerButton" Click="OptimizationManagerButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#6ad36b"
+                    Content="{x:Static p:Strings.OptimizationManager}"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/optimize_icon.png"/>
+            <Button x:Name="AffinityManagerButton" Click="AffinityManagerButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#607d8b"
+                    Content="{x:Static p:Strings.AffinityManager}"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/affinity_icon.png"/>
+            <Button x:Name="UpdateManagerButton" Click="UpdateManagerButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#78909c"
+                    Content="{x:Static p:Strings.UpdateManager}"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/update_icon.png"/>
+            <Button x:Name="BloatwareButton" Click="BloatwareButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#f06292"
+                    Content="{x:Static p:Strings.Bloatware}"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/bloatware.png"/>
+            <Button x:Name="ServiceManagementButton" Click="ServiceManagementButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#0288d1"
+                    Content="{x:Static p:Strings.ServiceManagement}"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/servis.png"/>
+            <Button x:Name="IrqToolButton" Click="IrqToolButton_Click"
+                    Height="52" Margin="14,8,14,0"
+                    Background="#5669b3"
+                    Content="{x:Static p:Strings.IrqTool}"
+                    Style="{StaticResource LeftMenuButtonStyle}"
+                    Tag="Images/irq.png"/>
+        </StackPanel>
+        <Border Grid.Column="1" Height="54" VerticalAlignment="Top" Background="#262830" CornerRadius="0,0,12,12">
+            <TextBlock x:Name="HeaderTextBlock"
+                       Text="{x:Static p:Strings.HeaderHome}"
+                       Foreground="White" FontSize="20" FontWeight="SemiBold"
+                       VerticalAlignment="Center" HorizontalAlignment="Center" />
+        </Border>
+        <ContentControl x:Name="MainContentArea" Grid.Column="1" Margin="0,60,0,200"/>
+        <StackPanel Grid.Column="1" VerticalAlignment="Bottom" Margin="15,0,15,150">
+            <TextBox x:Name="CommandInput" Height="30" Margin="0,0,0,10" Background="#19191c" Foreground="White" FontFamily="Consolas" />
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <Button x:Name="EncryptButton" Content="Komutu Şifrele" Click="EncryptButton_Click" Width="150" Margin="0,0,10,0" Background="#43a047" Foreground="White"/>
+                <Button x:Name="RunSystemCommandButton" Content="SYSTEM ile Çalıştır" Click="RunSystemCommandButton_Click" Width="150" Background="#0288d1" Foreground="White"/>
+            </StackPanel>
+        </StackPanel>
+        <TextBox Grid.Column="1" x:Name="LogTextBox" Height="130" VerticalAlignment="Bottom"
+                 Margin="15,0,15,15" FontFamily="Consolas"
+                 Background="#19191c" Foreground="#5dfc72" FontSize="14"
+                 IsReadOnly="True" TextWrapping="NoWrap" VerticalScrollBarVisibility="Auto"
+                 Text="[17:13:01] Sistem optimize ediliyor..."/>
+    </Grid>
+</Window>

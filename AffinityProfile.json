@@ -1,0 +1,113 @@
+{
+  "version": "1.0",
+  "auto_assignment": {
+    "enabled": true,
+    "default_core_count": 2,
+    "devices": [
+      {
+        "category": "PCI",
+        "core_count": 15,
+        "match": {
+          "type": "pci",
+          "keywords": ["pci", "pcie"]
+        }
+      },
+      {
+        "category": "USB",
+        "core_count": 7,
+        "match": {
+          "type": "usb",
+          "keywords": ["usb", "hub", "composite"]
+        }
+      },
+      {
+        "category": "Ağ",
+        "core_count": 3,
+        "match": {
+          "type": "pci|usb",
+          "keywords": ["ethernet", "network", "lan", "wi-fi", "wireless"]
+        }
+      },
+      {
+        "category": "Depolama",
+        "core_count": 3,
+        "match": {
+          "type": "pci|scsi|nvme",
+          "keywords": ["storage", "disk", "ssd", "hdd"]
+        }
+      },
+      {
+        "category": "GPU",
+        "core_count": 1,
+        "match": {
+          "type": "pci",
+          "keywords": ["video", "display", "graphics", "nvidia", "amd", "intel hd"]
+        }
+      },
+      {
+        "category": "Ses",
+        "core_count": 3,
+        "match": {
+          "type": "pci|usb",
+          "keywords": ["audio", "sound", "high definition audio", "realtek audio"]
+        }
+      },
+      {
+        "category": "Bluetooth",
+        "core_count": 3,
+        "match": {
+          "type": "usb",
+          "keywords": ["bluetooth"]
+        }
+      },
+      {
+        "category": "Görüntü",
+        "core_count": 3,
+        "match": {
+          "type": "pci|usb",
+          "keywords": ["video", "display"]
+        }
+      },
+      {
+        "category": "Denetleyici",
+        "core_count": 3,
+        "match": {
+          "type": "pci|usb",
+          "keywords": ["controller"]
+        }
+      },
+      {
+        "category": "Kamera",
+        "core_count": 1,
+        "match": {
+          "type": "usb",
+          "keywords": ["camera", "webcam"]
+        }
+      },
+      {
+        "category": "Yazıcı",
+        "core_count": 1,
+        "match": {
+          "type": "usb",
+          "keywords": ["printer"]
+        }
+      },
+      {
+        "category": "Monitör",
+        "core_count": 1,
+        "match": {
+          "type": "usb|pci",
+          "keywords": ["monitor"]
+        }
+      },
+      {
+        "category": "Diğer",
+        "core_count": 3,
+        "match": {
+          "type": "*",
+          "keywords": []
+        }
+      }
+    ]
+  }
+}

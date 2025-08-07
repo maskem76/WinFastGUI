@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="WinFastGUI.Controls.ImageBackupControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="480" d:DesignWidth="700">
+
+    <Grid Background="#F6F8FA">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="18,12,0,8" VerticalAlignment="Top">
+            <StackPanel>
+                <TextBlock Text="Yedek Türü" FontWeight="Bold" Margin="0,0,0,2"/>
+                <ComboBox x:Name="ImageTypeCombo" Width="100" Height="28" SelectedIndex="0">
+                    <ComboBoxItem Content="WIM"/>
+                    <ComboBoxItem Content="ESD"/>
+                </ComboBox>
+            </StackPanel>
+            <StackPanel Margin="18,0,0,0">
+                <TextBlock Text="Hedef Klasör" FontWeight="Bold" Margin="0,0,0,2"/>
+                <DockPanel>
+                    <TextBox x:Name="TargetPathBox" Width="260" Height="28" IsReadOnly="True"/>
+                    <Button x:Name="BrowseTargetBtn" Content="..." Width="28" Height="28" Margin="5,0,0,0" Click="BrowseTargetBtn_Click"/>
+                </DockPanel>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="18,0,0,4">
+            <Button x:Name="TakeImageBtn" Content="VSS ile İmaj Al (Güvenli)" Width="220" Height="32" Margin="0,0,12,0" Click="TakeImageBtn_Click"/>
+        </StackPanel>
+
+        <Grid Grid.Row="2" Margin="18,4,18,10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <TextBox x:Name="LogBox" Grid.Row="0" Margin="0,0,0,8" VerticalScrollBarVisibility="Auto" IsReadOnly="True" FontSize="13" Background="#FFF" Foreground="#333" TextWrapping="Wrap"/>
+            <ProgressBar x:Name="ProgressBar" Grid.Row="1" Height="18" VerticalAlignment="Center" Minimum="0" Maximum="100" Value="0"/>
+        </Grid>
+    </Grid>
+</UserControl>

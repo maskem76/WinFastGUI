@@ -1,0 +1,11 @@
+﻿[ExclusionList]
+\pagefile.sys
+\hiberfil.sys
+\swapfile.sys
+\$Recycle.Bin\*
+\System Volume Information\*
+\Windows\CSC\*
+\Users\pc\Downloads\*
+\Users\pc\Videos\*
+\Users\pc\AppData\Local\Temp\*
+\Temp\*
